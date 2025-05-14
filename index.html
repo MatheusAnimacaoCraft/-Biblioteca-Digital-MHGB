@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.min.css">
+
+    <!--CSS -->
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Biblioteca Digital MHGB</title>
+
+  </head>
+  <body>
+    <header class="cabeçalho">
+      <div class="container">
+        <input type="checkbox" id="menu" class="container_botao" />
+        <label for="menu" class="containet_rotulo">
+          <span class="cabeçalho__menu_hamburguer container__imagem"></span>
+        </label>
+        <ul class="lista_menu">
+          <li class="lista_menu_titulo">GÊNEROS</li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">FICÇÃO</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">ROMANCE</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">GIBIS</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">LITERATURA INFANTO JUVENIL</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">CONTOS</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">HISTÓRIA EM QUADRINHOS</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">DIREITO</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">ENSINO TÉCNICO</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">LENDAS E FOLCLORE</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">PARLENDAS</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">DIDÁTICOS</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">GRANDES AUTORES</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">DICIONÁRIOS PORTUGUÊS / INGLÊS / ESPANHOL</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">LIVROS RELIGIOSOS</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">MITOLOGIA</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">ARTE</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">ATLAS</a>
+          </li>
+        </ul>
+        <img
+          src="img/logo.png"
+          alt="logo da AluraBooks"
+          class="container__imagem"
+        />
+        <h1 class="container_titulo">Biblioteca Digital M<b class="container_titulo_negrito">H</b><b class="container_titulo_negrito">G</b>B</h1>
+      </div>
+
+      <ul class="opções">
+        <input type="checkbox" id="opções_menu" class="opções_botão">
+        <label for="opções_menu" class="opções_rotulo">
+            <li class="opções_item">GÊNEROS</li>
+        </label>
+
+        <ul class="lista_menu">
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">FICÇÃO</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">ROMANCE</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">GIBIS</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">LITERATURA INFANTO JUVENIL</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">CONTOS</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">HISTÓRIA EM QUADRINHOS</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">DIREITO</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">ENSINO TÉCNICO</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">LENDAS E FOLCLORE</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">PARLENDAS</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">DIDÁTICOS</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">GRANDES AUTORES</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">DICIONÁRIOS PORTUGUÊS / INGLÊS / ESPANHOL</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">LIVROS RELIGIOSOS</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">MITOLOGIA</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">ARTE</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">ATLAS</a>
+          </li>
+        </ul>
+
+        <li class="opções_item"><a href="#" class="opções_link">FAVORITOS</a></li>
+        
+        <li class="opções_item lista_menu_itemSP"><a href="https://livros.arvore.com.br/biblioteca/ler/livros" class="opções_link">PLATAFORMA LEIA SP</a></li>
+
+      <div class="container">
+        <a href="#" class="container_link"
+          ><img
+            src="img/Usuário.svg"
+            alt="meus perfil"
+            class="container__imagem"
+        /><p class="container_texto">Meu perfil</p></a>
+      </div>
+    </header>
+
+    <section class="banner Contents">
+  <h2 class="banner_titulo">Já leu um livro hoje?</h2>
+  <p class="banner_texto">
+    Encontre em nossa estante o que precisa para seu desenvolvimento!
+  </p>
+
+  <form action="pesquisa.html" method="get">
+    <input
+      type="search"
+      name="q"
+      class="banner_pesquisa"
+      placeholder="Qual será sua próxima leitura?"
+    />
+  </form>
+</section>
+    <h2 class="carrosel_titulo">PLATAFORMA LEIA</h2>
+   <section class="topicos Contents">
+  <div>
+    <img src="img/LEIASP.png" alt="Imagem Leia SP">
+    <h2 class="topicos_titulo">ACESSE OS LIVROS DESSE BIMESTRE DA PLATAFORMA LEIA POR AQUI</h2>
+  </div>
+
+  <div class="container text-center">
+    <!-- Card 1 - Ensino Fundamental -->
+    <div class="card">
+      <div class="card_descrição">
+        <div class="descrição">
+          <h3 class="container_titulo">ENSINO FUNDAMENTAL</h3>
+        </div>
+        <img src="img/MHGB.png" class="descrição_imgem" alt="Livro Ensino Fundamental" />
+      </div>
+      <div class="card_botões text-center">
+        <a href="https://livros.arvore.com.br/biblioteca/ler/livros" class="botões_ancora">Acesse aqui</a>
+      </div>
+    </div>
+
+    <!-- Card 2 - Ensino Médio -->
+    <div class="card">
+      <div class="card_descrição">
+        <div class="descrição">
+          <h3 class="container_titulo">ENSINO MÉDIO</h3>
+        </div>
+        <img src="img/MHGB.png" class="descrição_imgem" alt="Livro Ensino Médio" />
+      </div>
+      <div class="card_botões text-center">
+        <a href="https://livros.arvore.com.br/biblioteca/ler/livros" class="botões_ancora">Acesse aqui</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <section class="carrosel Contents">
+      <h2 class="carrosel_titulo">INDICAÇÃO QUINZENAL PARA LEITURA</h2>
+      <!-- Slider main container -->
+       <div class="carrosel_container">
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+              <img src="./img livro/eu sou malala.png" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1" alt=""/>
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./img livro/Diário de uma garota nada popular.png"
+              class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2" alt="Diário de uma garota nada popular"/>
+          </div>
+          <div class="swiper-slide">
+            <img src="./img livro/O Diário de Anne Frank.png" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3" alt="O Diário de Anne Frank" />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./img livro/Susy e as águas - vivas.png"
+              alt="Livro sobre liderança em design design da alura books" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal4"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img livro/Shakespeare 1.png" alt="livro sobre gestão" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal5" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img livro/O Gato Preto 1.png" alt="livro sobre gestão" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal6" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img livro/O fanstástico mistério de Feiurinha 1.png" alt="livro sobre gestão" 
+            class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal7" />
+          </div>
+        </div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+
+
+      <!-- Modal 1 -->
+<div class="modal fade" id="modal1" tabindex="-1">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      
+      <div class="modal-header">
+        <h5 class="modal-title">Eu Sou Malala</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <div class="modal-body">
+        <img src="img livro/eu sou malala.png" class=class="img-fluid w-100" alt="Eu Sou Malala">
+        <p class="mt-3">
+          O livro acompanha a infância da garota no Paquistão, os primeiros anos de vida escolar, as asperezas da vida numa região marcada pela desigualdade social, as belezas do deserto e as trevas da vida sob o Talibã.
+        </p>
+      </div>
+
+      <div class="modal-footer">
+        <a href="https://matheusanimacaocraft.github.io/o-sliding-puzzle-3x3-n-meros/" class="btn btn-primary" target="_blank">Ler agora</a>
+        <a href="https://github.com/MatheusAnimacaoCraft/o-sliding-puzzle-3x3-n-meros" class="btn btn-secondary" target="_blank">Ver código do projeto</a>
+      </div>
+
+    </div>
+  </div>
+</div>
+      
+
+      <!-- Modal 2 -->
+<div class="modal fade" id="modal2" tabindex="-1">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      
+      <div class="modal-header">
+        <h5 class="modal-title">Diário de uma garota nada popular.png</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <div class="modal-body">
+        <img src="img livro/Diário de uma garota nada popular.png" class= class="img-fluid w-100" alt="Eu Sou Malala">
+        <p class="mt-3">
+          Uma adolescente atrapalhada e cheia de confissões como Nikki não poderia viver sem seu diário. Mas quando a menina não se lembra onde o deixou, essa emergêencia precisa de uma investigação! Depois de conquistar o público brasileiro, Nikki Maxwell esta de volta com seu Diário de uma garota nada popular.
+        </p>
+      </div>
+
+      <div class="modal-footer">
+        <a href="https://matheusanimacaocraft.github.io/o-sliding-puzzle-3x3-n-meros/" class="btn btn-primary" target="_blank">Ler agora</a>
+        <a href="https://github.com/MatheusAnimacaoCraft/o-sliding-puzzle-3x3-n-meros" class="btn btn-secondary" target="_blank">Ver código do projeto</a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+      <!-- Modal 3 -->
+<div class="modal fade" id="modal3" tabindex="-1">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      
+      <div class="modal-header">
+        <h5 class="modal-title">O Diário de Anne Frank</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <div class="modal-body">
+        <img src="img livro/O Diário de Anne Frank.png" class= class="img-fluid w-100" alt="Eu Sou Malala">
+        <p class="mt-3">
+          Suas anotações narram os sentimentos, os medos e as pequenas alegrias de uma menina judia que, como sua família, lutou em vão para sobreviver ao Holocausto. Uma poderosa lembrança dos horrores de uma guerra, um testemunho eloquente do espírito humano. Assim podemos descrever os relatos feitos por Anne em seu diário.
+        </p>
+      </div>
+
+      <div class="modal-footer">
+        <a href="https://matheusanimacaocraft.github.io/o-sliding-puzzle-3x3-n-meros/" class="btn btn-primary" target="_blank">Ler agora</a>
+        <a href="https://github.com/MatheusAnimacaoCraft/o-sliding-puzzle-3x3-n-meros" class="btn btn-secondary" target="_blank">Ver código do projeto</a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Modal 4 -->
+<div class="modal fade" id="modal4" tabindex="-1">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      
+      <div class="modal-header">
+        <h5 class="modal-title">Suzy e as Águas-Vivas</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <div class="modal-body">
+        <img src="img livro/Susy e as águas - vivas.png" class= class="img-fluid w-100" alt="Suzy e as Águas-Vivas">
+        <p class="mt-3">
+          Este livro tem uma história que aborda temas sensíveis como perdas, luto, aceitação, amizades e seus possíveis fins trágicos. Tem uma narrativa delicada e comovente, nos fazendo mergulhar nos pensamentos e sentimentos da jovem Suzy, uma garota de doze anos que está enfrentando a morte repentina de sua ex melhor amiga.
+        </p>
+      </div>
+
+      <div class="modal-footer">
+        <a href="https://matheusanimacaocraft.github.io/o-sliding-puzzle-3x3-n-meros/" class="btn btn-primary" target="_blank">Ler agora</a>
+        <a href="https://github.com/MatheusAnimacaoCraft/o-sliding-puzzle-3x3-n-meros" class="btn btn-secondary" target="_blank">Ver código do projeto</a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Modal 5 -->
+<div class="modal fade" id="modal5" tabindex="-1">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      
+      <div class="modal-header">
+        <h5 class="modal-title">Shakespeare peça historica</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <div class="modal-body">
+        <img src="img livro/Shakespeare 1.png" class= class="img-fluid w-100" alt="Suzy e as Águas-Vivas">
+        <p class="mt-3">
+          As peças históricas de Shakespeare, também conhecidas como "Histórias", são um dos géneros dramáticos mais importantes do autor. Elas retratam a história da Inglaterra, focando frequentemente em eventos e personagens reais, embora Shakespeare tenha tomado algumas liberdades criativas para fins dramáticos. 
+        </p>
+      </div>
+
+      <div class="modal-footer">
+        <a href="https://matheusanimacaocraft.github.io/o-sliding-puzzle-3x3-n-meros/" class="btn btn-primary" target="_blank">Ler agora</a>
+        <a href="https://github.com/MatheusAnimacaoCraft/o-sliding-puzzle-3x3-n-meros" class="btn btn-secondary" target="_blank">Ver código do projeto</a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Modal 6 -->
+<div class="modal fade" id="modal6" tabindex="-1">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      
+      <div class="modal-header">
+        <h5 class="modal-title">O Gato Preto</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <div class="modal-body">
+        <img src="img livro/O Gato Preto 1.png" class= class="img-fluid w-100" alt="Suzy e as Águas-Vivas">
+        <p class="mt-3">
+          O Gato Preto é um dos mais perturbadores contos de Edgar Allan Poe. Um homem que adora animais se transforma em um perverso ser, cometendo atrocidades com seu gato de estimação. A insanidade é amplificada pelo consumo exagerado de álcool, o que o torna cada vez mais violento.
+        </p>
+      </div>
+
+      <div class="modal-footer">
+        <a href="https://matheusanimacaocraft.github.io/o-sliding-puzzle-3x3-n-meros/" class="btn btn-primary" target="_blank">Ler agora</a>
+        <a href="https://github.com/MatheusAnimacaoCraft/o-sliding-puzzle-3x3-n-meros" class="btn btn-secondary" target="_blank">Ver código do projeto</a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Modal 7 -->
+<div class="modal fade" id="modal7" tabindex="-1">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      
+      <div class="modal-header">
+        <h5 class="modal-title">O fantástico mistério de Feiurinha descrição</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <div class="modal-body">
+        <img src="img livro/O fanstástico mistério de Feiurinha 1.png" class= class="img-fluid w-100" alt="Suzy e as Águas-Vivas">
+        <p class="mt-3">
+          explora o que acontece após o "felizes para sempre" dos contos de fadas, questionando a ideia de que a felicidade reside apenas no casamento e na rotina familiar. A história acompanha Branca de Neve e outras princesas em busca de Feiurinha, uma princesa cujo conto ainda não foi escrito, e que desapareceu. 
+        </p>
+      </div>
+
+      <div class="modal-footer">
+        <a href="https://matheusanimacaocraft.github.io/o-sliding-puzzle-3x3-n-meros/" class="btn btn-primary" target="_blank">Ler agora</a>
+        <a href="https://github.com/MatheusAnimacaoCraft/o-sliding-puzzle-3x3-n-meros" class="btn btn-secondary" target="_blank">Ver código do projeto</a>
+      </div>
+
+    </div>
+  </div>
+</div>
+      
+    </div>
+    </section>
+
+    <footer class="rodape Contents">
+  <h2 class="mb-4 text-center">Entre em contato</h2>
+
+  <div class="d-flex justify-content-center gap-4 mb-4">
+    <a href="https://github.com/MatheusAnimacaoCraft" class="text-dark text-decoration-none" target="_blank">
+      <i class="bi bi-github me-2"></i>GitHub
+    </a>
+    <a href="https://www.youtube.com/@AnimacaoCraftBR" class="text-dark text-decoration-none" target="_blank">
+      <i class="bi bi-youtube me-2"></i>YouTube
+    </a>
+  </div>
+
+  <div class="school-info">
+    <p class="contato_texto mb-1">E.E. Profª Maria Helena Gazzi Bonadio</p>
+    <p class="contato_texto mb-4">Rua Dr. Cássio Salerno - Ipanema Ville, Sorocaba - SP</p>
+    <p class="contato_texto text-muted">© Copyright 2025. Produzido por Matheus Eduardo</p>
+  </div>
+</footer>
+    
+    <!-- JS do Swiper e Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+
+    <script src="banco de dados1/menujs.js"></script>
+  </body>
+</html>

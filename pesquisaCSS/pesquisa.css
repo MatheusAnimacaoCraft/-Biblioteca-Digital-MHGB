@@ -1,0 +1,77 @@
+.pesquisaLivro {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+/* Fundo do livro */
+.livro__background {
+    background-color: aliceblue;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+/* Estilização do card do livro */
+.livro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(218, 246, 243);
+    width: 220px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Responsividade */
+@media (max-width: 480px) {
+    .livro {
+        width: 90%;
+        padding: 15px;
+    }
+}
+
+/* Imagem */
+.livro__imagem {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Informações do livro */
+.livro__info {
+    margin-top: 10px;
+}
+
+.livro__categoria {
+    font-size: 14px;
+    color: #406a76;
+    font-weight: bold;
+}
+
+.livro__titulo {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.livro__autor {
+    font-size: 14px;
+    color: #333;
+    margin-top: 3px;
+}
+
+/* Tag de categoria */
+.livro__tag {
+    display: inline-block;
+    background: #2ab400;
+    color: white;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin-top: 8px;
+}

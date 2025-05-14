@@ -1,0 +1,110 @@
+.rodape {
+  background-color: #f8f9fa;
+  padding: 60px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: #212529;
+}
+
+.rodape h2 {
+  font-size: 2rem;
+  color: var(--cor-de-titulo);
+  margin-bottom: 30px;
+}
+
+.rodape a {
+  font-size: 1.1rem;
+  color: #212529;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.rodape a:hover {
+  color: var(--cor-de-titulo);
+  text-decoration: underline;
+}
+
+.rodape i {
+  font-size: 1.3rem;
+  vertical-align: middle;
+}
+
+.school-info p {
+  margin: 4px 0;
+  font-size: 0.95rem;
+  color: #495057;
+}
+
+.rodape .contato {
+  margin-top: 20px;
+  font-size: 0.85rem;
+  color: #6c757d;
+}
+
+/* 🖥️ Estilo para telas grandes (mínimo 1024px) */
+@media screen and (min-width: 1024px) {
+  .rodape {
+    padding: 80px 100px;
+    text-align: left;
+  }
+
+  .rodape h2 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .rodape .d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 40px;
+  }
+
+  .rodape a {
+    font-size: 1.2rem;
+  }
+
+  .school-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: left;
+  }
+
+  .school-info p {
+    font-size: 1rem;
+    flex: 1 1 100%;
+  }
+
+  .rodape .contato {
+    font-size: 0.9rem;
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+  }
+}
+
+/* 🖥️ Estilo para telas muito grandes (mínimo 1728px) */
+@media screen and (min-width: 1728px) {
+  .rodape {
+    padding: 100px 200px;
+  }
+
+  .rodape h2 {
+    font-size: 3rem;
+  }
+
+  .rodape a {
+    font-size: 1.3rem;
+  }
+
+  .school-info p {
+    font-size: 1.1rem;
+  }
+
+  .rodape .contato {
+    font-size: 1rem;
+  }
+}
