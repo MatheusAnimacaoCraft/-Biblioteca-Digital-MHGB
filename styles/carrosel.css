@@ -51,7 +51,7 @@
 
 .descrição_titulo_livro{
     color: var(--cor-azul);
-    font-size: 18px;
+    font-size: 30px;
     font-weight: 700;
     margin: 0.5em 0;
 }
@@ -94,6 +94,10 @@
         width: 40%;
         margin: 2em auto;
     }
+
+    .descrição_imgem {
+        width: 40%;
+    }
 }
 
 @media screen and (min-width: 1728px) {
@@ -107,7 +111,7 @@
         margin: 1em 0;
     }
 
-    .swiper {
+    .swiper  img{
         width: 50%;
     }
 
