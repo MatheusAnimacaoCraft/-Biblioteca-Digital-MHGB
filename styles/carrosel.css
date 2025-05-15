@@ -90,20 +90,13 @@
         top: 60%;
     }
 
-    .card {
-        width: 40%;
-        margin: 2em auto;
-    }
-
-    .descrição_imgem {
-        width: 40%;
-    }
 }
 
 @media screen and (min-width: 1728px) {
+
     .carrosel_container {
         display: flex;
-        margin: 0 20vw 3em 20vw;
+        margin: 0 5vw 0em 5vw;
         align-items: center;
     }
 
@@ -112,7 +105,7 @@
     }
 
     .swiper  img{
-        width: 50%;
+        width: 100%;
     }
 
     .descrição_titulo {
@@ -125,10 +118,5 @@
 
     .descrição {
         margin-right: 2em;
-    }
-
-    .card {
-        width: 60%;
-        margin-left: 3em;
     }
 }

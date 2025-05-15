@@ -89,7 +89,7 @@
 /* 🖥️ Estilo para telas muito grandes (mínimo 1728px) */
 @media screen and (min-width: 1728px) {
   .rodape {
-    padding: 100px 200px;
+    padding: 1rem 2rem;
   }
 
   .rodape h2 {

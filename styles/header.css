@@ -76,8 +76,7 @@
 }
 
 .lista_menu_itemSP {
-    background: var(--azul-degrade);
-    color: #00ffff;
+    display: none;
 }
 
 .container_botao {
@@ -108,7 +107,7 @@
     }
 
     .container_titulo {
-        font-weight: 400;
+        font-weight: 700;
         display: block;
     }
 
@@ -155,6 +154,7 @@
 
     .opções_item {
         padding: 2em 1em;
+        cursor: pointer;
     }
 
     .lista_menu_item:hover {
@@ -179,6 +179,10 @@
     display: inline-block;
     border-radius: 5px;
     padding: 2em 1em;
+}
+
+.lista_menu_itemSP {
+    display: block;
 }
 
 /* Esconde a lista por padrão */
