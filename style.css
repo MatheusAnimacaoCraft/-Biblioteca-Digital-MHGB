@@ -4,6 +4,7 @@
 @import url("styles/leiaSpTopicos.css");
 @import url("styles/contato.css");
 @import url("styles/rodape.css");
+@import url("pesquisaCSS/pesquisa.css");
 
 :root {
     --cor-de-fundo: #EBECEE;
