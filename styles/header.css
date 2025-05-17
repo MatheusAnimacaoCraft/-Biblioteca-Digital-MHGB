@@ -166,12 +166,12 @@
     }
 
     /* Esconde o checkbox */
-.opções_checkboxSP {
+/* .opções_checkboxSP {
     display: none;
-}
+} */
 
 /* Estilização do botão */
-.opções_rotuloSP {
+/* .opções_rotuloSP {
     cursor: pointer;
     background-color: #007BFF;
     color: white;
@@ -179,29 +179,28 @@
     display: inline-block;
     border-radius: 5px;
     padding: 2em 1em;
-}
+} */
 
-.lista_menu_itemSP {
+/* .lista_menu_itemSP {
     display: block;
-}
+} */
 
 /* Esconde a lista por padrão */
-.lista_menuSP {
+/* .lista_menuSP {
     display: none;
     list-style: none;
     background-color: white;
     padding: 10px;
-    /*border: 1px solid #ccc;*/
     position: absolute;
     width: 200px;
     top: 5.9rem;
     right: 54rem;
-}
+} */
 
 /* Quando o checkbox for marcado, exibe a lista */
-.opções_checkboxSP:checked ~ .lista_menuSP {
+/* .opções_checkboxSP:checked ~ .lista_menuSP {
     display: block;
-}
+} */
 }
 
 @media screen and (min-width: 1728px){
