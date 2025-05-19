@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -25,8 +25,8 @@
     <link rel="stylesheet" href="style.css" />
     <title>Biblioteca Digital MHGB</title>
 
-</head>
-<body>
+  </head>
+  <body>
 
     <header class="cabeçalho">
       <div class="container">
@@ -90,13 +90,14 @@
         </ul>
         <img
           src="img/logo.png"
-          alt="logo da AluraBooks"
+          alt="logo da MHGB"
           class="container__imagem"
         />
         <h1 class="container_titulo">Biblioteca Digital M<b class="container_titulo_negrito">H</b><b class="container_titulo_negrito">G</b>B</h1>
       </div>
 
       <ul class="opções">
+
         <input type="checkbox" id="opções_menu" class="opções_botão">
         <label for="opções_menu" class="opções_rotulo">
             <li class="opções_item">GÊNEROS</li>
@@ -110,7 +111,7 @@
             <a href="#" class="lista_menu_link">ROMANCE</a>
           </li>
           <li class="lista_menu_item">
-            <a href="#" class="lista_menu_link">GIBIS</a>
+            <a href="Livros sala de leitura( LIVROS)1.pdf" class="lista_menu_link">GIBIS</a>
           </li>
           <li class="lista_menu_item">
             <a href="#" class="lista_menu_link">LITERATURA INFANTO JUVENIL</a>
@@ -156,112 +157,123 @@
           </li>
         </ul>
 
-        <li class="opções_item"><a href="#" class="opções_link">FAVORITOS</a></li>
+        <li class="opções_item"><a href="index.html" class="opções_link">incial</a></li>
+
+        <!-- <li class="opções_item"><a href="#" class="opções_link">FAVORITOS</a></li> -->
         
-        <li class="opções_item lista_menu_itemSP"><a href="https://livros.arvore.com.br/biblioteca/ler/livros" class="opções_link">PLATAFORMA LEIA SP</a></li>
+        <li class="opções_item"><a href="https://livros.arvore.com.br/biblioteca/ler/livros" class="opções_link">PLATAFORMA LEIA SP</a></li>
 
       <div class="container">
-        <a href="#" class="container_link"
-          ><img
-            src="img/Usuário.svg"
-            alt="meus perfil"
-            class="container__imagem"
-        /><p class="container_texto">Meu perfil</p></a>
+        <a href="#" class="container_link"><img src="img/Usuário.svg" alt="meus perfil" class="container__imagem"/><p class="container_texto">Meu perfil</p></a>
       </div>
     </header>
 
     <section class="banner Contents">
-  <h2 class="banner_titulo">Já leu um livro hoje?</h2>
-  <p class="banner_texto">
-    Encontre em nossa estante o que precisa para seu desenvolvimento!
-  </p>
 
-  <form action="pesquisa.html" method="get" class="form_busca">
-  <label for="busca" class="visually-hidden">Buscar livro</label>
-  <input
-    type="search"
-    id="busca"
-    name="q"
-    class="banner_pesquisa"
-    placeholder="Qual será sua próxima leitura?"
-  />
-</form>
-</section>
+      <h2 class="banner_titulo">Já leu um livro hoje?</h2>
+      <p class="banner_texto">
+      Encontre em nossa estante o que precisa para seu desenvolvimento!
+       </p>
 
-    <section class="pesquisaLivro">
-        <div class="livro__background">
-            <div class="livro">
-                <img class="livro__imagem" src="img livro/eu sou malala.png" alt="Capa do livro Eu Sou Malala">
-                <div class="livro__info">
-                <span class="livro__categoria">📖 Livro</span>
-                <h3 class="livro__titulo">Eu Sou Malala</h3>
-                <p class="livro__autor">Ziraldo</p>
-                <span class="livro__tag">Ensino Fundamental 1</span>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!-- pesquisa -->
+
+    <div id="container">
+    <div class="nput-group">
+
+        <form action="pesquisa.html" method="get" class="form_busca">
+        <label for="busca" class="visually-hidden">Buscar livro</label>
+        <input id="search"
+        type="text"
+        class="banner_pesquisa"
+        placeholder="Qual será sua próxima leitura?"/> </form>
+
+      </div>
+ 
+
+    </div>
+
+  </section>
+
 
     <section class="pesquisaLivro">
-        <div class="livro__background">
-            <div class="livro">
-                <img class="livro__imagem" src="img livro/eu sou malala.png" alt="Capa do livro Eu Sou Malala">
-                <div class="livro__info">
+
+
+  <ul class="items">
+
+    <li class="item">
+      <div class="item-imagem">
+        <img class="livro__imagem" src="LivroGênerosImg/eu sou malala.png" alt="Livro">
+      </div>
+
+            <div class="item-content">
+                
                 <span class="livro__categoria">📖 Livro</span>
                 <h3 class="livro__titulo">Eu Sou Malala</h3>
-                <p class="livro__autor">Ziraldo</p>
-                <span class="livro__tag">Ensino Fundamental 1</span>
-                </div>
-            </div>
-        </div>
-    </section>
+                <p class="livro__autor">Adriana Carranc</p>
+                <span class="livro__generos">GÊNEROS Biografia</span>
 
-    <section class="pesquisaLivro">
-        <div class="livro__background">
-            <div class="livro">
-                <img class="livro__imagem" src="img livro/eu sou malala.png" alt="Capa do livro Eu Sou Malala">
-                <div class="livro__info">
+            </div>
+    </li>
+
+    <li class="item">
+      <div class="item-imagem">
+        <img class="livro__imagem" src="LivroGênerosImg/Diário de uma garota nada popular.png" alt="Livro">
+      </div>
+            <div class="item-content">
+                
                 <span class="livro__categoria">📖 Livro</span>
-                <h3 class="livro__titulo">Eu Sou Malala</h3>
-                <p class="livro__autor">Ziraldo</p>
-                <span class="livro__tag">Ensino Fundamental 1</span>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <section class="pesquisaLivro">
-        <div class="livro__background">
-            <div class="livro">
-                <img class="livro__imagem" src="img livro/eu sou malala.png" alt="Capa do livro Eu Sou Malala">
-                <div class="livro__info">
+                <h3 class="livro__titulo">Diário de uma garota nada popular</h3>
+
+                <p class="livro__autor">Rachel Rénée Russell</p>
+
+                <span class="livro__generos">GÊNEROS ficção</span>
+
+            </div>
+    </li>
+
+    <li class="item">
+      <div class="item-imagem">
+        <img class="livro__imagem" src="LivroGênerosImg/O fanstástico mistério de Feiurinha 1.png" alt="Livro">
+      </div>
+            <div class="item-content">
+                
                 <span class="livro__categoria">📖 Livro</span>
-                <h3 class="livro__titulo">Eu Sou Malala</h3>
-                <p class="livro__autor">Ziraldo</p>
-                <span class="livro__tag">Ensino Fundamental 1</span>
-                </div>
+
+                <h3 class="livro__titulo">fanstástico mistério de Feiurinha</h3>
+
+                <p class="livro__autor">Pedro Bandeira</p>
+
+                <span class="livro__generos">GÊNEROS infanto-juvenil</span>
+
             </div>
-        </div>
+    </li>
+
+  </ul>
+  
+
     </section>
 
-    <footer class="rodape Contents">
-  <h2 class="mb-4 text-center">Entre em contato</h2>
-
-  <div class="d-flex justify-content-center gap-4 mb-4">
-    <a href="https://github.com/MatheusAnimacaoCraft" class="text-dark text-decoration-none" target="_blank">
-      <i class="bi bi-github me-2"></i>GitHub
+    <footer class="rodape">
+  <h2>Entre em contato</h2>
+  <div class="redes-sociais">
+    <a href="https://github.com/MatheusAnimacaoCraft" target="_blank">
+      <i class="bi bi-github"></i> GitHub
     </a>
-    <a href="https://www.youtube.com/@AnimacaoCraftBR" class="text-dark text-decoration-none" target="_blank">
-      <i class="bi bi-youtube me-2"></i>YouTube
+
+    <a href="https://www.instagram.com/mariahelenagazzibonadio/?locale=de&hl=am-et" target="_blank">
+      <i class="bi bi-instagram"> Instagram</i>
     </a>
   </div>
-
-  <div class="school-info">
-    <p class="contato_texto mb-1">E.E. Profª Maria Helena Gazzi Bonadio</p>
-    <p class="contato_texto mb-4">Rua Dr. Cássio Salerno - Ipanema Ville, Sorocaba - SP</p>
-    <p class="contato_texto text-muted">© Copyright 2025. Produzido por Matheus Eduardo</p>
+  <div class="informacoes-escola">
+    <p>E.E. Profª Maria Helena Gazzi Bonadio</p>
+    <p>Rua Dr. Cássio Salerno, 427 - Ipanema Ville, Sorocaba - SP</p>
+    <p>Telefone (15) 32232758</p>
+    <p class="contato">© 2025. Produzido por Matheus Eduardo</p>
   </div>
 </footer>
+
+<script src="JavaScript/script.js"></script>
 
 </body>
 </html>

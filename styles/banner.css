@@ -1,5 +1,6 @@
 .banner {
     background-image: url(../img/Frame\ Inicial.png);
+    background-repeat: none;
     color: var(--branco);
     text-align: center;
     padding: 2.5em 2em;
@@ -51,7 +52,6 @@
 
     .banner_pesquisa {
         width: 50%;
-        background-image: url('img/lupa.svg');
         background-repeat: no-repeat;
         background-position: 1em center;
         padding-left: 3em;
@@ -66,8 +66,6 @@
 @media screen and (min-width: 1728px) {
     .banner_pesquisa {
         width: 35%;
-        background-image: url('img/lupa.svg');
-        background-repeat: no-repeat;
         background-position: 11em center;
         padding-left: 0em; /* aumenta o padding se necessário */
     }

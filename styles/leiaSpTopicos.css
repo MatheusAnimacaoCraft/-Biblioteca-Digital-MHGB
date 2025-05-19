@@ -32,6 +32,10 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.card_botões{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
 .card {
     background: var(--branco);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -92,6 +96,11 @@
     .descrição_imgem{
         display: block;
         width: 40%;
+    }
+
+    .card_botões:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(0,0,0,0.1);
     }
 }
 
