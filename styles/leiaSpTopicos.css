@@ -118,6 +118,6 @@
 
     .card_ceter {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
 }
 }

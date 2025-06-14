@@ -97,6 +97,11 @@
     margin-top: 8px;
 }
 
+#no_results {
+    display: none;
+    text-align: center;
+}
+
 /* Responsividade: Grid adaptável */
 @media (min-width: 768px) {
     .items {
