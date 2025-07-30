@@ -1,9 +1,9 @@
-@import url("styles/header.css");
-@import url("styles/banner.css");
-@import url("styles/carrosel.css");
-@import url("styles/leiaSpTopicos.css");
-@import url("styles/rodape.css");
-@import url("pesquisaCSS/pesquisa.css");
+@import url("SRC/styles/header.css");
+@import url("SRC/styles/banner.css");
+@import url("SRC/styles/carrosel.css");
+@import url("SRC/styles/leiaSpTopicos.css");
+@import url("SRC/styles/rodape.css");
+@import url("SRC/pesquisaCSS/pesquisa.css");
 
 :root {
     --cor-de-fundo: #EBECEE;

@@ -1,0 +1,31 @@
+.rodape {
+  background-color: #f8f9fa;
+  padding: 60px 20px;
+  text-align: center;
+  color: #212529;
+  font-family: 'Poppins', sans-serif;
+}
+
+.rodape h2 {
+  color: #2ab400;
+  margin-bottom: 20px;
+}
+
+.redes-sociais a {
+  margin: 0 10px;
+  color: #212529;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.redes-sociais a:hover {
+  color: #2ab400;
+  text-decoration: underline;
+}
+
+.informacoes-escola p {
+  margin: 5px 0;
+  font-size: 0.95rem;
+  color: #495057;
+}
+
