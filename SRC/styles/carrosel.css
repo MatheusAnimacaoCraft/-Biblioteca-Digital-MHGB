@@ -3,7 +3,7 @@
     background: linear-gradient(135deg, #ffffff 0%, #e9fbee 100%);
     text-align: center;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 1.125em;
     font-weight: 700;
     padding: 1em 0 0.5em 0;
 }
@@ -33,20 +33,20 @@
 }
 
 .titulo-carrosel {
-  font-size: 1.8rem;
+  font-size: 1.8em;
   color: var(--cor-de-titulo);
   margin-bottom: 1.5rem;
 }
 
 .descrição_titulo_livro{
     color: var(--cor-azul);
-  font-size: clamp(1.5rem, 2.5vw, 2rem);
+  font-size: clamp(1.5em, 2.5vw, 2em);
   font-weight: 700;
   margin: 0.5em 0;
 }
 
 .descrição_texto {
-    font-size: 14px;
+    font-size: 0.95em;
 }
 
 .botões_item{
@@ -61,9 +61,13 @@
      text-decoration: none;
 }
 
+.btn-primary {
+    font-size: 1em;
+}
+
 @media screen and (min-width: 1024px) {
     .carrosel_titulo {
-        font-size: 26px;
+        font-size: 1.625em
     }
 
     .swiper-pagination{
@@ -77,6 +81,18 @@
     .swiper-button-prev, .swiper-button-next{
         display: block;
         top: 60%;
+    }
+
+    .descrição_texto {
+        font-size: 1.5em;
+    }
+
+    .descrição_titulo {
+        font-size: 1.5em;
+    }
+
+    .btn-primary {
+    font-size: 1.4em;
     }
 
 }
@@ -95,17 +111,5 @@
 
     .swiper  img{
         width: 100%;
-    }
-
-    .descrição_titulo {
-        font-size: 32px;
-    }
-
-    .descrição_texto {
-        font-size: 16px;
-    }
-
-    .descrição {
-        margin-right: 2em;
     }
 }

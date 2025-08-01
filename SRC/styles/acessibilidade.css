@@ -1,0 +1,25 @@
+.menu_acessibilidade {
+    position: fixed;
+    top:10rem;
+    right: 20px;
+    z-index: 1000;
+}
+
+.rotacao_botao {
+    transform: rotate(-90deg);
+    transform-origin:right center;
+}
+
+.opções_acessibilidade {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.opções_acessibilidade button {
+    margin-bottom: 5px;
+}
+
+.apresenta-lista {
+    display: none;
+}

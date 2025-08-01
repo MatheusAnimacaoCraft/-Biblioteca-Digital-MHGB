@@ -25,7 +25,9 @@
 
 .informacoes-escola p {
   margin: 5px 0;
-  font-size: 0.95rem;
+  .informacoes__texto {
+  font-size: 1rem; /* ou 1.1rem, conforme o tamanho original */
+}
   color: #495057;
 }
 

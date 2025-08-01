@@ -51,6 +51,7 @@
 
 .container_botao:checked ~ .lista_menu {
     display: block;
+    z-index: 1;
 }
 
 .container_titulo_negrito {
@@ -103,12 +104,12 @@
 
     .container_titulo, .container_titulo_negrito {
         font-family: var(--font-secudario);
-        font-size: 30px;
     }
 
     .container_titulo {
         font-weight: 700;
         display: block;
+        font-size: 1.85em;
     }
 
     .container_titulo_negrito {
@@ -150,6 +151,7 @@
     .opções_botão:checked ~ .lista_menu{
         display: block;
         width: auto;
+        z-index: 1;
     }
 
     .opções_botão {
