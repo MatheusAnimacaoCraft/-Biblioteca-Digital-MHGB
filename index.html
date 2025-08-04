@@ -187,9 +187,9 @@
   </form>
 </section>
 
-    <h2 class="carrosel_titulo Contents">PLATAFORMA LEIA</h2>
+    <h2 class="carrosel_titulo Contents" tabindex="0">PLATAFORMA LEIA</h2>
   
-   <section class="topicos Contents">
+   <section class="topicos Contents" tabindex="0">
   <div>
     <img src="SRC/img/LEIASP 2.png" class="LEIASP" alt="Imagem Leia SP">
     <h2 class="topicos_titulo">ACESSE OS LIVROS DESSE BIMESTRE DA PLATAFORMA LEIA POR AQUI</h2>
@@ -234,60 +234,114 @@
 </section>
 
 
-    <section class="carrosel Contents">
-      <h2 class="carrosel_titulo">INDICAÇÃO QUINZENAL PARA LEITURA</h2>
-      <!-- Slider main container -->
-       <div class="carrosel_container">
-      <div class="swiper">
-        <!-- Additional required wrapper -->
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
+    <section class="carrosel Contents" aria-label="Carrossel de indicações de leitura">
+  <h2 class="carrosel_titulo">INDICAÇÃO QUINZENAL PARA LEITURA</h2>
 
-        <div class="swiper-wrapper">
-          <!-- Slides -->
-          <div class="swiper-slide">
-              <img src="SRC/LivroGênerosImg/eu sou malala.png" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1" alt="eu sou malala"/>
-          </div>
-          <div class="swiper-slide">
-            <img
-              src="SRC/LivroGênerosImg/Diário de uma garota nada popular.png"
-              class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2" alt="Diário de uma garota nada popular"/>
-          </div>
-          <div class="swiper-slide">
-            <img src="SRC/LivroGênerosImg/O Diário de Anne Frank.png" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3" alt="O Diário de Anne Frank" />
-          </div>
-          <div class="swiper-slide">
-            <img
-              src="SRC/LivroGênerosImg/Susy e as águas - vivas.png"
-              alt="Susy e as águas - vivas" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal4"
-            />
-          </div>
-          <div class="swiper-slide">
-            <img src="SRC/LivroGênerosImg/Shakespeare 1.png" alt="Shakespeare" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal5" />
-          </div>
-          <div class="swiper-slide">
-            <img src="SRC/LivroGênerosImg/O Gato Preto 1.png" alt="Gato Preto" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal6" />
-          </div>
-          <div class="swiper-slide">
-            <img src="SRC/LivroGênerosImg/O fanstástico mistério de Feiurinha 1.png" alt="O fanstástico mistério de Feiurinha" 
-            class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal7" />
-          </div>
+  <div class="carrosel_container">
+    <div class="swiper">
+      
+      <div class="swiper-pagination"></div>
+
+      <div class="swiper-wrapper">
+        <!-- Slide 1 -->
+        <div class="swiper-slide">
+          <img src="SRC/LivroGênerosImg/eu sou malala.png"
+               class="btn btn-link"
+               tabindex="0"
+               role="button"
+               aria-label="Abrir modal do livro Eu Sou Malala"
+               data-bs-toggle="modal"
+               data-bs-target="#modal1"
+               alt="Capa do livro Eu Sou Malala" />
         </div>
 
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
+        <!-- Slide 2 -->
+        <div class="swiper-slide">
+          <img src="SRC/LivroGênerosImg/Diário de uma garota nada popular.png"
+               class="btn btn-link"
+               tabindex="0"
+               role="button"
+               aria-label="Abrir modal do livro Diário de uma garota nada popular"
+               data-bs-toggle="modal"
+               data-bs-target="#modal2"
+               alt="Capa do livro Diário de uma garota nada popular" />
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="swiper-slide">
+          <img src="SRC/LivroGênerosImg/O Diário de Anne Frank.png"
+               class="btn btn-link"
+               tabindex="0"
+               role="button"
+               aria-label="Abrir modal do livro O Diário de Anne Frank"
+               data-bs-toggle="modal"
+               data-bs-target="#modal3"
+               alt="Capa do livro O Diário de Anne Frank" />
+        </div>
+
+        <!-- Slide 4 -->
+        <div class="swiper-slide">
+          <img src="SRC/LivroGênerosImg/Susy e as águas - vivas.png"
+               class="btn btn-link"
+               tabindex="0"
+               role="button"
+               aria-label="Abrir modal do livro Susy e as águas-vivas"
+               data-bs-toggle="modal"
+               data-bs-target="#modal4"
+               alt="Capa do livro Susy e as águas-vivas" />
+        </div>
+
+        <!-- Slide 5 -->
+        <div class="swiper-slide">
+          <img src="SRC/LivroGênerosImg/Shakespeare 1.png"
+               class="btn btn-link"
+               tabindex="0"
+               role="button"
+               aria-label="Abrir modal do livro Shakespeare"
+               data-bs-toggle="modal"
+               data-bs-target="#modal5"
+               alt="Capa do livro Shakespeare" />
+        </div>
+
+        <!-- Slide 6 -->
+        <div class="swiper-slide">
+          <img src="SRC/LivroGênerosImg/O Gato Preto 1.png"
+               class="btn btn-link"
+               tabindex="0"
+               role="button"
+               aria-label="Abrir modal do livro O Gato Preto"
+               data-bs-toggle="modal"
+               data-bs-target="#modal6"
+               alt="Capa do livro O Gato Preto" />
+        </div>
+
+        <!-- Slide 7 -->
+        <div class="swiper-slide">
+          <img src="SRC/LivroGênerosImg/O fanstástico mistério de Feiurinha 1.png"
+               class="btn btn-link"
+               tabindex="0"
+               role="button"
+               aria-label="Abrir modal do livro O fantástico mistério de Feiurinha"
+               data-bs-toggle="modal"
+               data-bs-target="#modal7"
+               alt="Capa do livro O fantástico mistério de Feiurinha" />
+        </div>
       </div>
 
+      <!-- Botões de navegação -->
+      <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Slide anterior"></div>
+      <div class="swiper-button-next" tabindex="0" role="button" aria-label="Próximo slide"></div>
+    </div>
+  </div>
 
       <!-- Modal 1 -->
-<div class="modal fade" id="modal1" tabindex="-1">
+<div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1Title" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
-      
+
       <div class="modal-header">
-        <h5 class="modal-title descrição_titulo">Eu Sou Malala</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <h5 class="modal-title descrição_titulo" id="modal1Title">Eu Sou Malala</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar modal"></button>
       </div>
 
       <div class="modal-body">
@@ -466,8 +520,8 @@
     </div>
     </section>
 
-    <section class="topicos">
-      <h2 class="topicos_titulo">LIVROS DESSE BIMESTRE DA PLATAFORMA LEIA</h2>
+    <section class="topicos" aria-label="topicos de LIVROS DESSE BIMESTRE DA PLATAFORMA LEIA">
+      <h2 class="topicos_titulo" tabindex="0">LIVROS DESSE BIMESTRE DA PLATAFORMA LEIA</h2>
       
       <ul class="topicos_lista">
         <!-- 6° ano  -->
@@ -543,7 +597,7 @@
       </ul>
   </section>
 
-  <section class="carrosel Contents">
+  <section class="carrosel Contents" aria-label="Carrossel de indicações de leitura" >
       <h2 class="carrosel_titulo">Os livros mais pedidos estão aqui!</h2>
       <!-- Slider main container -->
        <div class="carrosel_container">
@@ -557,31 +611,46 @@
            <div class="swiper-slide">
             <img
               src="SRC/LivroGênerosImg/Sonic The Hedgehog – Volume 1 Depois da guerra.png"
+              tabindex="0"
+               role="button"
+               aria-label="Abrir modal do Gibis Sonic The Hedgehog – Volume 1 Depois da guerra"
               alt="Livro sobre liderança em design design da alura books" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modalm3"
             />
           </div>
           <div class="swiper-slide">
-            <img src="SRC/LivroGênerosImg/Sonic The Hedgehog – Volume 2 A sina do Dr. Eggman.png" alt="livro sobre gestão" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modalm6" />
+            <img src="SRC/LivroGênerosImg/Sonic The Hedgehog – Volume 2 A sina do Dr. Eggman.png" tabindex="0"
+               role="button"
+               aria-label="Abrir modal do Gibis Sonic The Hedgehog – Volume 2 A sina do Dr. Eggman" alt="livro sobre gestão" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modalm6" />
           </div>
           <div class="swiper-slide">
-              <img src="SRC/LivroGênerosImg/eu sou malala.png" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modalm1" alt=""/>
+              <img src="SRC/LivroGênerosImg/eu sou malala.png" class="btn btn-link" tabindex="0"
+               role="button"
+               aria-label="Abrir modal do livro Eu Sou Malala" data-bs-toggle="modal" data-bs-target="#modalm1" alt="eu sou malala"/>
           </div>
           <div class="swiper-slide">
             <img
-              src="SRC/LivroGênerosImg/Diário de uma garota nada popular.png"
+              src="SRC/LivroGênerosImg/Diário de uma garota nada popular.png" tabindex="0"
+               role="button"
+               aria-label="Abrir modal do livro Diário de uma garota nada popular"
               class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modalm2" alt="Diário de uma garota nada popular"/>
           </div>
           <div class="swiper-slide">
             <img
-              src="SRC/LivroGênerosImg/Susy e as águas - vivas.png"
-              alt="Livro sobre liderança em design design da alura books" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modalm4"
+              src="SRC/LivroGênerosImg/Susy e as águas - vivas.png" tabindex="0"
+               role="button"
+               aria-label="Abrir modal do livro Susy e as águas"
+              alt="Livro sobre Susy e as águas" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modalm4"
             />
           </div>
           <div class="swiper-slide">
-            <img src="SRC/LivroGênerosImg/O Diário de Anne Frank.png" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modalm5" alt="O Diário de Anne Frank" />
+            <img src="SRC/LivroGênerosImg/Shakespeare 1.png"tabindex="0"
+               role="button"
+               aria-label="Abrir modal do livro O Diário de Anne Frank"class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modalm5" alt="O Diário de Anne Frank" />
           </div>
           <div class="swiper-slide">
-            <img src="SRC/LivroGênerosImg/O fanstástico mistério de Feiurinha 1.png" alt="livro sobre gestão" 
+            <img src="SRC/LivroGênerosImg/O fanstástico mistério de Feiurinha 1.png" alt="livro sobre gestão" tabindex="0"
+               role="button"
+               aria-label="Abrir modal do livro O fanstástico mistério de Feiurinha" 
             class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modalm7" />
           </div>
         </div>
@@ -809,6 +878,8 @@
     <!-- JS do Swiper e Bootstrap -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.js"></script>
 
     <script src="SRC/JavaScript/menujs.js"></script>
     <script src="SRC/JavaScript/acessibilidade.js"></script>
