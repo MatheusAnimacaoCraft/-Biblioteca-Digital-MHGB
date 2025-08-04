@@ -5,10 +5,15 @@ document.addEventListener('DOMContentLoaded', function() {
     botaoDeAcessibilidade.addEventListener('click', function() {
         botaoDeAcessibilidade.classList.toggle('rotacao_botao');
         opçõesDeAcessibilidade.classList.toggle('apresenta-lista');
+
+        const botaoSelesionado = botaoDeAcessibilidade.getAttribute('aria-expaxnded') === 'true';
+        botaoDeAcessibilidade.setAttribute('aria-expaxnded', !botaoSelesionado)
     })
     
     const aumentaFonteBotao = document.getElementById('aumentar-fonte');
     const diminuiFonteBotao = document.getElementById('diminuir-fonte');
+
+    const alternaCotraste = document.getElementById('alterna-cotraste')
 
     let tamanhoAtualFonte = 1;
 
@@ -25,4 +30,9 @@ document.addEventListener('DOMContentLoaded', function() {
             document.body.style.fontSize = `${tamanhoAtualFonte}rem`;
         }
     });
+
+    alternaCotraste.addEventListener('click', function() {
+        document.body.classList.toggle('alterna-cotraste')
+    })
+
 });

@@ -68,6 +68,10 @@
     justify-content: space-between;
 }
 
+.LEIASP {
+    width: 25%;
+}
+
 @media screen and (min-width: 1024px) {
     .topicos_titulo {
         font-size: 2em

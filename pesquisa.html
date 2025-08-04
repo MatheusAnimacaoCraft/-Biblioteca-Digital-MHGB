@@ -20,6 +20,8 @@
     />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.min.css">
 
+    <link rel="icon" href="SRC/img/logo.png" type="image/png" />
+
     <!--CSS -->
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
@@ -199,6 +201,7 @@
         <div id="opções_acessibilidade" class="opções_acessibilidade apresenta-lista">
             <button id="aumentar-fonte" class="btn btn-primary fw-bold">A+</button>
             <button id="diminuir-fonte" class="btn btn-primary fw-bold">A-</button>
+            <button id="alterna-cotraste" class="btn btn-primary fw-bold alterna-cotraste"><i class="bi bi-shadows"></i></button>
         </div>
   </div>
 
@@ -212,9 +215,9 @@
 
   <ul class="items">
 
-    <li class="item">
+    <li class="item" >
       <div class="item-imagem">
-        <img class="livro__imagem" src="SRC/LivroGênerosImg/eu sou malala.png" alt="Livro">
+        <img class="livro__imagem btn btn-link" src="SRC/LivroGênerosImg/eu sou malala.png" data-bs-toggle="modal" data-bs-target="#modal1" alt="Livro">
       </div>
 
             <div class="item-content">
@@ -291,7 +294,6 @@
 
 <script src="SRC/JavaScript/script.js"></script>
 <script src="SRC/JavaScript/acessibilidade.js"></script>
-  </body>
 
 </body>
 </html>

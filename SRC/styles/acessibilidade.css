@@ -23,3 +23,91 @@
 .apresenta-lista {
     display: none;
 }
+
+/* Alto contraste */
+
+/* Modo contraste acessível - estilo "buda" */
+.alterna-cotraste .cabeçalho,
+.alterna-cotraste .lista_menu{
+    background-color: var(--alto-contraste-fundo) !important; /* fundo bem escuro */
+    color: var(--alto-contraste-texto) !important;         /* texto claro */
+}
+
+.alterna-cotraste .lista_menu_link{
+    background: var(--alto-contraste-texto);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+}
+
+.alterna-cotraste .lista_menu_titulo{
+    background-color: var(--alto-contraste-fundo);
+}
+
+.alterna-cotraste .lista_menu {
+    border-radius: 0 0 20px 20px;
+    position: absolute;
+}
+
+/* Botões com destaque */
+.alterna-cotraste .btn {
+    background-color: #333 !important;
+    color: #fff !important;
+    border: 1px solid #fff !important;
+}
+
+/* Cartões e containers */
+.alterna-cotraste .card,
+.alterna-cotraste .container {
+    background: var(--alto-contraste-fundo) !important;
+    color: var(--alto-contraste-texto) !important;
+}
+
+.alterna-cotraste .descrição_titulo_livro {
+    color: var(--alto-contraste-texto)
+}
+
+.alterna-cotraste .topicos {
+    background: linear-gradient(135deg, #262626, #484948);
+    color: var(--alto-contraste-link);
+}
+
+.alterna-cotraste .topicos_titulo {
+    color: var(--alto-contraste-link);
+}
+
+.alterna-cotraste .carrosel_titulo {
+    color: var(--alto-contraste-link);
+    background: linear-gradient(135deg, #282828 0%, #1e211f 100%);
+}
+
+.alterna-cotraste .rodape,
+.alterna-cotraste .contato{
+    background: var(--alto-contraste-fundo);
+    color: var(--alto-contraste-texto);  
+}
+
+.alterna-cotraste .redes-sociais a {
+    color: var(--cor-de-titulo);  
+}
+
+.alterna-cotraste {
+    background-color: var(--alto-contraste-fundo) !important;
+    color: var(--alto-contraste-texto) !important;
+}
+
+.alterna-cotraste .carrosel {
+    background-color: #1c7501;
+}
+
+.alterna-cotraste .modal-content {
+    background-color: #333;
+    color: var(--alto-contraste-texto);
+}
+
+.alterna-cotraste .btn-close {
+    background-color: #2bba00;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}

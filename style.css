@@ -17,6 +17,9 @@
     --preto: #000000;
     --cinza: #474646;
     --cinza-claro: #858585;
+    --alto-contraste-fundo: #000000;
+    --alto-contraste-texto: #ffffff;
+    --alto-contraste-link: #00ff1e;
 }
 
 body {
