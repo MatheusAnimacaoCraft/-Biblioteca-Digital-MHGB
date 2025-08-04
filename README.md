@@ -23,6 +23,8 @@ Na categoria de "Busca" o usuário digita o nome do livro que deseja buscar, cas
 
 ## :computer: Tecnologias usadas:
 
+- `ScrollReveal.js`
+- `Bootstrap`
 - `Javascript`
 - `HTML`
 - `CSS`
