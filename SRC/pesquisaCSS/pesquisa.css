@@ -17,6 +17,7 @@
     padding: 0;
     max-width: 1200px;
     justify-content: center;
+    cursor: pointer;
 }
 
 /* Card individual */
@@ -46,7 +47,7 @@
 
 .item-imagem img {
     width: 200px;
-    height: 200px;
+    /* height: 200px; */
     object-fit: cover;
     border-radius: 10px;
     transition: transform 0.3s ease;
@@ -122,6 +123,7 @@
     border-top: none;
 }
 
+
 /* Mensagem de "Nenhum resultado" */
 #no_results {
     display: none;
@@ -141,5 +143,7 @@
     opacity: 0;
     transform: scale(0.95);
     pointer-events: none;
+    visibility: hidden; /* Esconde sem quebrar o alinhamento */
+    position: absolute; /* Remove o espaço na lista */
 }
 

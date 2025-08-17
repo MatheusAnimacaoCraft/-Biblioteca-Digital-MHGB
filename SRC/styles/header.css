@@ -1,6 +1,6 @@
 .cabeçalho__menu_hamburguer {
-    width: 24px;
-    height: 24px;
+    width: 54px;
+    height: 54px;
     background-image: url("../img/Menu.svg");
     background-repeat: no-repeat;
     background-position: center;
@@ -8,15 +8,11 @@
 }
 
 .container_botao:checked ~ .containet_rotulo > .cabeçalho__menu_hamburguer {
-    background-image: url("../img/Aberto.svg");
+    background-image: url("../img/Aberto.jpg");
 }
 
 .container_botao:checked ~ .containet_rotulo {
     background: var(--cor-de-titulo);
-    background-image: url("../img/menu_black.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    display: inline-block;
 }
 
 .cabeçalho__menu_hamburguer:hover {
@@ -76,24 +72,18 @@
     text-transform: uppercase;
 }
 
-.lista_menu_itemSP {
+.container_botao,
+.container_titulo,
+.opções_item,
+.container_texto,
+.opções_botão {
     display: none;
 }
 
-.container_botao {
-    display: none;
-}
-
-.container_titulo {
-    display: none;
-}
-
-.opções {
-    display: none;
-}
-
-.container_texto {
-    display: none;
+.container__imagem_casa {
+    color: #001550;
+    width: 2.2em;
+    margin: 1.3em;
 }
 
 .carrosel {
@@ -101,6 +91,17 @@
 }
 
 @media screen and (min-width: 1024px) {
+
+    .container_titulo,
+    .opções_item,
+    .container_texto
+     {
+        display: block;
+    }
+
+    .container_texto {
+        display: none;
+    }
 
     .container_titulo, .container_titulo_negrito {
         font-family: var(--font-secudario);
@@ -128,16 +129,6 @@
     .opções_link {
         text-decoration: none;
         color: var(--preto);
-    }
-
-    .opções_link:hover {
-        text-decoration: none;
-        color: var(--cor-de-titulo);
-    }
-
-    .opções_item:hover {
-        text-decoration: none;
-        color: var(--cor-de-titulo);
     }
 
     .container_imagem_transparente {
@@ -177,42 +168,7 @@
         text-decoration: none;
     }
 
-    /* Esconde o checkbox */
-/* .opções_checkboxSP {
-    display: none;
-} */
 
-/* Estilização do botão */
-/* .opções_rotuloSP {
-    cursor: pointer;
-    background-color: #007BFF;
-    color: white;
-    padding: 10px;
-    display: inline-block;
-    border-radius: 5px;
-    padding: 2em 1em;
-} */
-
-/* .lista_menu_itemSP {
-    display: block;
-} */
-
-/* Esconde a lista por padrão */
-/* .lista_menuSP {
-    display: none;
-    list-style: none;
-    background-color: white;
-    padding: 10px;
-    position: absolute;
-    width: 200px;
-    top: 5.9rem;
-    right: 54rem;
-} */
-
-/* Quando o checkbox for marcado, exibe a lista */
-/* .opções_checkboxSP:checked ~ .lista_menuSP {
-    display: block;
-} */
 }
 
 @media screen and (min-width: 1728px){
