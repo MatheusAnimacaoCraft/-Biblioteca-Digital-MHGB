@@ -25,4 +25,16 @@ document.querySelectorAll('.swiper-slide img').forEach(img => {
   ScrollReveal().reveal('.carrosel_titulo', { delay: 500 });
   ScrollReveal().reveal('.topicos', { delay: 500 });
   ScrollReveal().reveal('.pesquisaLivro', { delay: 500 });
-  ScrollReveal().reveal('.rodape', { delay: 500 });
+  // ScrollReveal().reveal('.rodape', { delay: 500 });
+
+
+
+  // salva pesquesa
+
+// Pegar os parâmetros da URL
+  const params = new URLSearchParams(window.location.search);
+  const termo = params.get("q"); // pega o valor de "q"
+
+  if (termo) {
+    document.getElementById("search").value = termo; // coloca dentro do input
+  }

@@ -131,6 +131,7 @@
     font-weight: bold;
     color: #888;
     width: 100%;
+    margin: 15em;
 }
 
 .item {
@@ -147,3 +148,4 @@
     position: absolute; /* Remove o espaço na lista */
 }
 
+/* #d3d3d9 */

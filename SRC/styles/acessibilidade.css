@@ -24,6 +24,11 @@
     display: none;
 }
 
+.ver-mais-modal {
+    text-decoration: none;
+    color: var(--ver-mais);
+}
+
 /* Alto contraste */
 
 /* Modo contraste acessível - estilo "buda" */
