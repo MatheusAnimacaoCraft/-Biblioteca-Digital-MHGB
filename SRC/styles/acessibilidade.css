@@ -102,7 +102,7 @@
     color: var(--alto-contraste-texto) !important;
 }
 
-.alterna-cotraste .carrosel {
+.alterna-cotraste .carrosel #carrosel_indicação_modal{
     background-color: #1c7501;
 }
 

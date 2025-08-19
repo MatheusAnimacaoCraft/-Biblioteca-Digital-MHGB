@@ -1,6 +1,7 @@
 // Pegando a UL ou OL onde os livros vão ficar
 const lista = document.getElementById("lista-livros");
 
+
 // Gerando HTML dinamicamente
 livros.forEach(livro => {
   lista.innerHTML += `

@@ -8,6 +8,11 @@
     padding: 1em 0 0.5em 0;
 }
 
+#carrosel_indicação_modal {
+   list-style: none; 
+}
+
+
 .swiper-slide img {
   width: 100%;
   border-radius: 12px;

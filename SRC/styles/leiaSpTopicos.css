@@ -66,6 +66,7 @@
 .card_botões {
     display: flex;
     justify-content: space-between;
+    margin: auto;
 }
 
 .LEIASP {
