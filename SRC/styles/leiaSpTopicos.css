@@ -24,8 +24,37 @@
   max-width: 1000px;
 }
 
+/* MUDAR COR   */
+
+.sexto_ano {
+    background-color: #edf096;
+}
+
+.setimo_ano {
+    background-color: #0dcaf088;
+}
+
+.oitavo_ano {
+    background-color: #f0860d88;
+}
+
+.nono_ano {
+    background-color: #68f00d88;
+}
+
+.primeiro_ano {
+    background-color: #d50df088;
+}
+
+.segundo_ano {
+    background-color: #79797988;
+}
+
+.terceiro_ano {
+    background-color: #ff010188;
+}
+
 .topicos_item {
-  background-color: white;
   border: 2px solid var(--cor-de-titulo);
   padding: 1em;
   border-radius: 10px;
@@ -86,7 +115,7 @@
         box-shadow: 0 8px 16px rgba(0,0,0,0.1);
     }
     .topicos_link:hover {
-        color: var(--cor-de-titulo);
+        color: rgb(255, 255, 255);
     }
     .card_ceter {
         display: flex;

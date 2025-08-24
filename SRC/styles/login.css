@@ -1,0 +1,45 @@
+.container_login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: aliceblue;
+}
+
+.contant {
+    background-color: #fff;
+    border-radius: 15px;
+    height: 80%;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-weight: 700;
+    display: block;
+    font-size: 1.85em;
+}
+
+.first-content {
+    display: flex;
+}
+
+.first-conlumn {
+    text-align: center;
+    flex: 1 0 auto;
+}
+
+.list-social-media{
+    display: flex;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.second-content{
+    position: absolute;
+    display: none;
+}

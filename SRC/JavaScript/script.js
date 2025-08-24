@@ -37,7 +37,7 @@ searchInput.addEventListener("keydown", (event) => {
 
 function formatString(value) {
     return value.toLowerCase().trim().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
-}
+};
 
 
 // FILTRO POR GÊNERO
@@ -46,7 +46,7 @@ function mostrarTodos() {
         livro.classList.remove('oculto');
     });
     document.getElementById('no_results').style.display = 'none';
-}
+};
 
 function filtrarPorGenero(genero) {
     const livros = document.querySelectorAll('.item');
@@ -56,7 +56,7 @@ function filtrarPorGenero(genero) {
     if (genero.toLowerCase() === 'todos') {
         mostrarTodos();
         return;
-    }
+    };
 
     livros.forEach(livros => {
         const generoLivro = livros.querySelector('.livro__generos')
@@ -67,7 +67,7 @@ function filtrarPorGenero(genero) {
             hasResults = true;
         }else {
             livros.classList.add('oculto')
-        }
+        };
     });
 
         // Mostra ou esconde mensagem "sem resultados"

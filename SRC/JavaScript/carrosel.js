@@ -1,11 +1,15 @@
 // Pegando a UL ou OL onde os livros vão ficar
-const carrosel = document.getElementById("carrosel_indicação")
+const carrosel = document.getElementById("carrosel_indicação");
 
-const carroselModal = document.getElementById("carrosel_indicação_modal")
+const carroselModal = document.getElementById("carrosel_indicação_modal");
 
-const carroselMaisPedidos = document.getElementById("carrosel_maisPedidos")
+const carroselMaisPedidos = document.getElementById("carrosel_maisPedidos");
 
-const cMaisPedidosModal = document.getElementById("carrosel_maisPedidos_modal")
+const cMaisPedidosModal = document.getElementById("carrosel_maisPedidos_modal");
+
+// PLATAFORMA LEIA
+
+const topicos_lista = document.getElementById("topicos_lista_leia");
 
 // Gerando HTML dinamicamente
 livrosCarrosel.forEach(livro => {
@@ -62,7 +66,7 @@ livrosCarroselMaisPedido.forEach(livro => {
     
     
     `
-})
+});
 
 // Gerando HTML dinamicamente
 livrosCarroselMaisPedido.forEach(livro => {
@@ -119,7 +123,16 @@ livrosCarrosel.forEach(livro => {
     
     
     `
-})
+});
+
+plataformaLeia.forEach(leia => {
+  topicos_lista.innerHTML += `
+  <!--° ano  -->
+          <li class="topicos_item ${leia.color}">
+              <a href="${leia.link}" class="topicos_link">${leia.topicos_item}</a>
+          </li>
+  `
+});
 
 // ver mais
 

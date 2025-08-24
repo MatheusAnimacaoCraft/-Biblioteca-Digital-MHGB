@@ -121,3 +121,33 @@
     border: 1px solid #ffffff;
     border-radius: 5px;
 } */
+
+/* MUDAR COR   */
+
+.alterna-cotraste .sexto_ano {
+    background-color: #e6e999;
+}
+
+.alterna-cotraste .setimo_ano {
+    background-color: #0dcaf0;
+}
+
+.alterna-cotraste .oitavo_ano {
+    background-color: #f0860d;
+}
+
+.alterna-cotraste .nono_ano {
+    background-color: #0df0ec;
+}
+
+.alterna-cotraste .primeiro_ano {
+    background-color: #d50df0;
+}
+
+.alterna-cotraste .segundo_ano {
+    background-color: rgb(137, 126, 126);
+}
+
+.alterna-cotraste .terceiro_ano {
+    background-color: #f94a6a;
+}

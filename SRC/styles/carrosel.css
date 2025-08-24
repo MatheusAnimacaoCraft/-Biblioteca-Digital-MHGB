@@ -8,7 +8,7 @@
     padding: 1em 0 0.5em 0;
 }
 
-#carrosel_indicação_modal {
+#carrosel_indicação_modal,  #carrosel_maisPedidos_modal {
    list-style: none; 
 }
 
