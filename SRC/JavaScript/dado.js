@@ -1,4 +1,5 @@
 // "Banco de dados" dos livros em JS
+
 const livros = [
   {
     imagem: "SRC/LivroGênerosImg/eu sou malala.png",
@@ -28,7 +29,7 @@ const livros = [
     modalId: "modal3",
     descrição2:"",
     descrição: "explora o que acontece após o ''felizes para sempre'' dos contos de fadas, questionando a ideia de que a felicidade reside apenas no casamento e na rotina familiar. A história acompanha Branca de Neve e outras princesas em busca de Feiurinha, uma princesa cujo conto ainda não foi escrito, e que desapareceu.",
-    link: "#"
+    link: "https://fd1c0b533e.cbaul-cdnwnd.com/88ae37cf5085e04655dc1589ba74ed0f/200000136-2e2192f1be/O_Fantastico_Mist%C3%A9rio_de_Feiurinha_-_Pedro_Bandeira.pdf"
   },
   {
     imagem: "SRC/LivroGênerosImg/Susy e as águas - vivas.png",
@@ -43,7 +44,7 @@ const livros = [
   {
     imagem: "SRC/LivroGênerosImg/Shakespeare 1.png",
     titulo: "Shakespeare",
-    autor: "?",
+    autor: "Shakespeare Barbara Heliodora",
     generos: "GRANDES AUTORES",
     modalId: "modal5",
     descrição2:"",
@@ -54,7 +55,7 @@ const livros = [
     imagem: "SRC/LivroGênerosImg/Sonic The Hedgehog – Volume 1 Depois da guerra.png",
     titulo: "Sonic The Hedgehog – Volume 1 Depois da guerra",
     autor: "Ian Flynn",
-    generos: "FICÇÃO",
+    generos: "HISTÓRIA EM QUADRINHOS",
     modalId: "modal6",
     descrição2:"Sonic The Hedgehog – Volume 1: Depois da guerra - Acompanha pôster e marcador! - Livro novo! ",
     descrição:"Dr. Eggman, o gênio do mal, foi vencido – mas o trabalho de Sonic ainda não acabou! No rastro de sua última e épica batalha, bots estão à solta e atacando pelas vilas mundo afora. Para derrotá-los, Sonic vai precisar de ajuda dos amigos Tails, Knuckles e Amy, assim como de novos e incríveis aliados. Correndo velozmente das telas dos games para as páginas dos quadrinhos, o ouriço azul tão querido por todos nós embala essa nova série trazida com exclusividade pela Geektopia, com tradução do grande Érico Assis. Um quadrinho com a excelência de sempre, feito com carinho para todas as gerações de leitores",
@@ -64,14 +65,26 @@ const livros = [
     imagem: "SRC/LivroGênerosImg/Sonic The Hedgehog – Volume 2 A sina do Dr. Eggman.png",
     titulo: "Sonic The Hedgehog – Volume 2 A sina do Dr. Eggman",
     autor: "Ian Flynn",
-    generos: "FICÇÃO",
+    generos: "HISTÓRIA EM QUADRINHOS",
     modalId: "modal7",
     descrição2:"Sonic The Hedgehog – Volume 2: A sina do Dr. EGGMAN UM DOS PERSONAGENS MAIS QUERIDOS DOS GAMES AGORA EM QUADRINHOS!",
     descrição:"vencido – mas o trabalho de Sonic ainda não acabou! No rastro de sua última e épica batalha, bots estão à solta e atacando pelas vilas mundo afora. Para derrotá-los, Sonic vai precisar de ajuda dos amigos Tails, Knuckles e Amy, assim como de novos e incríveis aliados.                                                       Correndo velozmente das telas dos games para as páginas dos quadrinhos, o ouriço azul tão querido por todos nós embala essa nova série trazida com exclusividade pela Geektopia, com tradução do grande Érico Assis. Um quadrinho com a excelência de sempre, feito com carinho para todas as gerações de leitores – e gamers!",
     link: "https://grabber.zone/comics/idw-sonic-portugues/volume-2/"
   },
+  {
+    imagem: "SRC/LivroGênerosImg/O Diário de Anne Frank.png",
+    titulo: "O Diário de Anne Frank",
+    autor: "Anne Frank",
+    generos: "Biografia",
+    modalId: "modal8",
+    descrição2:"",
+    descrição:"Suas anotações narram os sentimentos, os medos e as pequenas alegrias de uma menina judia que, como sua família, lutou em vão para sobreviver ao Holocausto. Uma poderosa lembrança dos horrores de uma guerra, um testemunho eloquente do espírito humano. Assim podemos descrever os relatos feitos por Anne em seu diário. ",
+    link: "https://drive.google.com/file/d/15m8iFpLUYiRN80BVxk6DL5EuOqs0wE5z/view"
+  },
 
 ];
+
+// INDICAÇÃO QUINZENAL PARA LEITURA
 
 const livrosCarrosel = [
   {
@@ -101,7 +114,7 @@ const livrosCarrosel = [
     descrição: "Suas anotações narram os sentimentos, os medos e as pequenas alegrias de uma menina judia que, como sua família, lutou em vão para sobreviver ao Holocausto. Uma poderosa lembrança dos horrores de uma guerra, um testemunho eloquente do espírito humano. Assim podemos descrever os relatos feitos por Anne em seu diário.",
     modalId: "modal3",
     alt: "Capa do livro O Diário de Anne Frank",
-    link: "#"
+    link: "https://drive.google.com/file/d/15m8iFpLUYiRN80BVxk6DL5EuOqs0wE5z/view"
   },
   {
     imagem: "SRC/LivroGênerosImg/Susy e as águas - vivas.png",
@@ -110,7 +123,7 @@ const livrosCarrosel = [
     descrição: "Este livro tem uma história que aborda temas sensíveis como perdas, luto, aceitação, amizades e seus possíveis fins trágicos. Tem uma narrativa delicada e comovente, nos fazendo mergulhar nos pensamentos e sentimentos da jovem Suzy, uma garota de doze anos que está enfrentando a morte repentina de sua ex melhor amiga.",
     modalId: "modal4",
     alt: "Capa do livro Susy e as águas - vivas",
-    link: "#"
+    link: "https://drive.google.com/file/d/15m8iFpLUYiRN80BVxk6DL5EuOqs0wE5z/view"
   },
   {
     imagem: "SRC/LivroGênerosImg/Shakespeare 1.png",
@@ -140,9 +153,11 @@ const livrosCarrosel = [
     descrição: "explora o que acontece após o ''felizes para sempre'' dos contos de fadas, questionando a ideia de que a felicidade reside apenas no casamento e na rotina familiar. A história acompanha Branca de Neve e outras princesas em busca de Feiurinha, uma princesa cujo conto ainda não foi escrito, e que desapareceu.",
     modalId: "modal7",
     alt: "Capa do livro O fanstástico mistério de Feiurinha",
-    link: "#"
+    link: "https://fd1c0b533e.cbaul-cdnwnd.com/88ae37cf5085e04655dc1589ba74ed0f/200000136-2e2192f1be/O_Fantastico_Mist%C3%A9rio_de_Feiurinha_-_Pedro_Bandeira.pdf"
   },
 ];
+
+// Os livros mais pedidos estão aqui!
 
 const livrosCarroselMaisPedido = [
   {
@@ -212,9 +227,11 @@ const livrosCarroselMaisPedido = [
     descrição: "explora o que acontece após o ''felizes para sempre'' dos contos de fadas, questionando a ideia de que a felicidade reside apenas no casamento e na rotina familiar. A história acompanha Branca de Neve e outras princesas em busca de Feiurinha, uma princesa cujo conto ainda não foi escrito, e que desapareceu.",
     modalId: "modal14",
     alt: "Capa do livro O fanstástico mistério de Feiurinha",
-    link: "#"
+    link: "https://fd1c0b533e.cbaul-cdnwnd.com/88ae37cf5085e04655dc1589ba74ed0f/200000136-2e2192f1be/O_Fantastico_Mist%C3%A9rio_de_Feiurinha_-_Pedro_Bandeira.pdf"
   },
 ];
+
+// LIVROS DESSE BIMESTRE DA PLATAFORMA LEIA
 
 const plataformaLeia = [
   // 6 ano

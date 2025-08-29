@@ -1,0 +1,28 @@
+@import url("SRC/styles/header.css");
+@import url("SRC/styles/rodape.css");
+@import url("SRC/styles/login.css");
+
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
+    --cor-de-titulo: #2ab400;
+    --ver-mais: #2ab400;
+    --cor-azul: #002F52;
+    --azul-degrade:linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --font-principal: "Poppins";
+    --font-secudario: "Josefin Sans"
+    --preto: #000000;
+    --redes-sociais: #212529;
+    --cinza: #474646;
+    --cinza-claro: #858585;
+    --alto-contraste-fundo: #000000;
+    --alto-contraste-texto: #ffffff;
+    --alto-contraste-link: #00ff1e;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--font-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
