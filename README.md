@@ -45,4 +45,18 @@ A aplicação funciona como uma **biblioteca virtual**, onde é possível cadast
   
 ## :bulb: Telas
 
-  <img src="SRC/img/Usuário.svg" alt="meus perfil" class="container__imagem"/>
+ <div align="center">
+
+  <img src="SRC/img/Biblioteca Digital.jpg" width="45%" />
+  <img src="SRC/img/Biblioteca Digital 2.jpg" width="45%" />
+
+  <img src="SRC/img/Biblioteca Digital 3.jpg" width="45%" />
+  <img src="SRC/img/Biblioteca Digital 4.jpg" width="45%" />
+
+  <img src="SRC/img/Biblioteca Digital 5.jpg" width="45%" />
+  <img src="SRC/img/Biblioteca Digital 6.jpg" width="45%" />
+
+  <img src="SRC/img/Biblioteca Digital 7.jpg" width="45%" />
+  <img src="SRC/img/Biblioteca Digital 8.jpg" width="45%" />
+
+</div>
