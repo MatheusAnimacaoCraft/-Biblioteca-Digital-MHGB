@@ -1,7 +1,7 @@
 const swiper = new Swiper(".swiper", {
   spaceBetween: 10,
   slidesPerView: 3,
-  // loop: true, // para rolar continuamente
+  loop: true, // para rolar continuamente
   pagination: {
     el: ".swiper-pagination",
     type: "bullets",

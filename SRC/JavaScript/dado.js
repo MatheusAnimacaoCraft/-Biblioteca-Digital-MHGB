@@ -9,7 +9,7 @@ const livros = [
     modalId: "modal1",
     descrição2:"",
     descrição: "O livro acompanha a infância da garota no Paquistão, os primeiros anos de vida escolar, as asperezas da vida numa região marcada pela desigualdade social, as belezas do deserto e as trevas da vida sob o Talibã.",
-    link: "https://annacrafts.wordpress.com/wp-content/uploads/2014/10/malala-yousafzai-eu-sou-malala.pdf"
+    link: "https://annacrafts.wordpress.com/wp-content/uploads/2014/10/malala-yousafzai-eu-sou-malala.pdf",
   },
   {
     imagem: "SRC/LivroGênerosImg/Diário de uma garota nada popular.png",
@@ -19,7 +19,7 @@ const livros = [
     modalId: "modal2",
     descrição2:"",
     descrição: "Uma adolescente atrapalhada e cheia de confissões como Nikki não poderia viver sem seu diário. Mas quando a menina não se lembra onde o deixou, essa emergêencia precisa de uma investigação! Depois de conquistar o público brasileiro, Nikki Maxwell esta de volta com seu Diário de uma garota nada popular.",
-    link: "https://cdn.bookey.app/files/pdf/book/pt/diario-de-uma-garota-nada-popular---vol-3.pdf"
+    link: "https://cdn.bookey.app/files/pdf/book/pt/diario-de-uma-garota-nada-popular---vol-3.pdf",
   },
   {
     imagem: "SRC/LivroGênerosImg/O fanstástico mistério de Feiurinha 1.png",
@@ -29,7 +29,7 @@ const livros = [
     modalId: "modal3",
     descrição2:"",
     descrição: "explora o que acontece após o ''felizes para sempre'' dos contos de fadas, questionando a ideia de que a felicidade reside apenas no casamento e na rotina familiar. A história acompanha Branca de Neve e outras princesas em busca de Feiurinha, uma princesa cujo conto ainda não foi escrito, e que desapareceu.",
-    link: "https://fd1c0b533e.cbaul-cdnwnd.com/88ae37cf5085e04655dc1589ba74ed0f/200000136-2e2192f1be/O_Fantastico_Mist%C3%A9rio_de_Feiurinha_-_Pedro_Bandeira.pdf"
+    link: "https://fd1c0b533e.cbaul-cdnwnd.com/88ae37cf5085e04655dc1589ba74ed0f/200000136-2e2192f1be/O_Fantastico_Mist%C3%A9rio_de_Feiurinha_-_Pedro_Bandeira.pdf",
   },
   {
     imagem: "SRC/LivroGênerosImg/Susy e as águas - vivas.png",
@@ -39,7 +39,7 @@ const livros = [
     modalId: "modal4",
     descrição2:"",
     descrição:"Este livro tem uma história que aborda temas sensíveis como perdas, luto, aceitação, amizades e seus possíveis fins trágicos. Tem uma narrativa delicada e comovente, nos fazendo mergulhar nos pensamentos e sentimentos da jovem Suzy, uma garota de doze anos que está enfrentando a morte repentina de sua ex melhor amiga.",
-    link: "#"
+    link: "#",
   },
   {
     imagem: "SRC/LivroGênerosImg/Shakespeare 1.png",
@@ -49,7 +49,7 @@ const livros = [
     modalId: "modal5",
     descrição2:"",
     descrição:"As peças históricas de Shakespeare, também conhecidas como ''Histórias'', são um dos géneros dramáticos mais importantes do autor. Elas retratam a história da Inglaterra, focando frequentemente em eventos e personagens reais, embora Shakespeare tenha tomado algumas liberdades criativas para fins dramáticos. ",
-    link: "#"
+    link: "#",
   },
   {
     imagem: "SRC/LivroGênerosImg/Sonic The Hedgehog – Volume 1 Depois da guerra.png",
@@ -59,7 +59,7 @@ const livros = [
     modalId: "modal6",
     descrição2:"Sonic The Hedgehog – Volume 1: Depois da guerra - Acompanha pôster e marcador! - Livro novo! ",
     descrição:"Dr. Eggman, o gênio do mal, foi vencido – mas o trabalho de Sonic ainda não acabou! No rastro de sua última e épica batalha, bots estão à solta e atacando pelas vilas mundo afora. Para derrotá-los, Sonic vai precisar de ajuda dos amigos Tails, Knuckles e Amy, assim como de novos e incríveis aliados. Correndo velozmente das telas dos games para as páginas dos quadrinhos, o ouriço azul tão querido por todos nós embala essa nova série trazida com exclusividade pela Geektopia, com tradução do grande Érico Assis. Um quadrinho com a excelência de sempre, feito com carinho para todas as gerações de leitores",
-    link: "https://grabber.zone/comics/idw-sonic-portugues/volume-1/"
+    link: "https://grabber.zone/comics/idw-sonic-portugues/volume-1/",
   },
   {
     imagem: "SRC/LivroGênerosImg/Sonic The Hedgehog – Volume 2 A sina do Dr. Eggman.png",
@@ -69,7 +69,7 @@ const livros = [
     modalId: "modal7",
     descrição2:"Sonic The Hedgehog – Volume 2: A sina do Dr. EGGMAN UM DOS PERSONAGENS MAIS QUERIDOS DOS GAMES AGORA EM QUADRINHOS!",
     descrição:"vencido – mas o trabalho de Sonic ainda não acabou! No rastro de sua última e épica batalha, bots estão à solta e atacando pelas vilas mundo afora. Para derrotá-los, Sonic vai precisar de ajuda dos amigos Tails, Knuckles e Amy, assim como de novos e incríveis aliados.                                                       Correndo velozmente das telas dos games para as páginas dos quadrinhos, o ouriço azul tão querido por todos nós embala essa nova série trazida com exclusividade pela Geektopia, com tradução do grande Érico Assis. Um quadrinho com a excelência de sempre, feito com carinho para todas as gerações de leitores – e gamers!",
-    link: "https://grabber.zone/comics/idw-sonic-portugues/volume-2/"
+    link: "https://grabber.zone/comics/idw-sonic-portugues/volume-2/",
   },
   {
     imagem: "SRC/LivroGênerosImg/O Diário de Anne Frank.png",
@@ -81,6 +81,642 @@ const livros = [
     descrição:"Suas anotações narram os sentimentos, os medos e as pequenas alegrias de uma menina judia que, como sua família, lutou em vão para sobreviver ao Holocausto. Uma poderosa lembrança dos horrores de uma guerra, um testemunho eloquente do espírito humano. Assim podemos descrever os relatos feitos por Anne em seu diário. ",
     link: "https://drive.google.com/file/d/15m8iFpLUYiRN80BVxk6DL5EuOqs0wE5z/view"
   },
+  
+  // livro novo
+
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "O Guardião de Sonhos",
+    autor: "Rodrigo Lacerda",
+    generos: "Ficção",
+    modalId: "modal9",
+    descrição2: "",
+    descrição: "Em uma pequena cidade com estranhas regras, um menino embarca numa viagem mágica para descobrir o segredo dos sonhos.",
+    link: "",
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/mil-e-uma-estrelas-marilda-castanha-capa.webp",
+    titulo: "MIL E UMA ESTRELAS",
+    autor: "Marilda Castanha",
+    generos: "LITERATURA INFANTO JUVENIL",
+    modalId: "modal10",
+    descrição2: "",
+    descrição: "Ela descobre que ele tem medo de ficar sozinho no breu e, para confortá-lo, conta-lhe mil e uma histórias até que ele adormeça, voltando a sonhar com estrelas e a libertá-las. ",
+    link: "#",
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "O Grande Gatsby",
+    autor: "F. Scott Fitzgerald",
+    generos: "Romance",
+    modalId: "modal11",
+    descrição2: "",
+    descrição: "Um misterioso milionário, Jay Gatsby, tenta reconquistar seu antigo amor, Daisy Buchanan, em meio à riqueza e decadência dos anos 1920 em Long Island.",
+    link: "https://books.google.com.br/books/about/O_Grande_Gatsby.html?id=z1Y8n78h0XMC&redir_esc=y",
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "Um Amor para Recordar",
+    autor: "Nicholas Sparks",
+    generos: "Ficção",
+    modalId: "modal12",
+    descrição2: "",
+    descrição: "O jovem Landon Carter, um rapaz rebelde, se apaixona por Jamie, a filha de um pastor que guarda um segredo. Juntos, eles vivem um amor que supera os desafios da vida.",
+    link: "https://books.google.com.br/books/about/Um_Amor_para_Recordar.html?id=z1Y8n78h0XMC&redir_esc=y",
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "O Sol na Cabeça",
+    autor: "Geovani Martins",
+    generos: "Ficção",
+    modalId: "modal13",
+    descrição2: "",
+    descrição: "Uma adolescente vive em meio a guerra e a pobreza. Ela se apaixona por um garoto que também vive o drama de ter os pais separados, um pai que é usuário de drogas e uma mãe que faz de tudo para sustentar os dois, ao mesmo tempo que o garoto procura uma vida melhor e a adolescente vive o dilema de se apaixonar por uma pessoa que não a corresponde. Este é um livro que mostra a realidade do que a guerra e a pobreza fazem com o ser humano. É um dos livros mais famosos do autor, que já foi traduzido para vários idiomas e que já teve uma adaptação para o cinema, com uma bela trilha sonora, que nos faz refletir sobre o tema, ao fim do livro.",
+    link: "https://books.google.com.br/books/about/O_Sol_na_Cabe%C3%A7a.html?id=z1Y8n78h0XMC&redir_esc=y",
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "A Hora da Estrela",
+    autor: "Clarice Lispector",
+    generos: "Ficção",
+    modalId: "modal14",
+    descrição2: "",
+    descrição: "Este livro conta a história de Macabéa, uma mulher pobre, inocente e ingênua, que vive em uma cidade grande. Em meio a pobreza, ela se apaixona por um homem que a trata mal, e ao mesmo tempo que ela não entende o porquê de ser tão maltratada, ela tenta encontrar a sua estrela. O livro mostra a crueldade da vida, mas ao mesmo tempo a beleza de uma mulher que, mesmo sem entender a vida, tenta ser feliz. Este livro é um marco na história da literatura brasileira, onde ele mostra a realidade da vida, de uma forma que somente uma artista seria capaz de fazer.",
+    link: "https://books.google.com.br/books/about/A_hora_da_estrela.html?id=z1Y8n78h0XMC&redir_esc=y",
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "Capitães da Areia",
+    autor: "Jorge Amado",
+    generos: "Ficção",
+    modalId: "modal15",
+    descrição2: "",
+    descrição: "O livro conta a história de um grupo de adolescentes órfãos que vivem em Salvador, e que vivem em um trapiche, um velho armazém à beira mar. Eles formam uma família, e vivem a vida do seu jeito, roubando e se divertindo, ao mesmo tempo que sonham com um futuro melhor. Este é um dos livros mais famosos do autor, que já foi traduzido para vários idiomas e que já teve uma adaptação para o cinema, com uma bela trilha sonora, que nos faz refletir sobre o tema, ao fim do livro.",
+    link: "https://books.google.com.br/books/about/Capit%C3%A3es_da_areia.html?id=z1Y8n78h0XMC&redir_esc=y",
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "Vidas Secas",
+    autor: "Graciliano Ramos",
+    generos: "Ficção",
+    modalId: "modal16",
+    descrição2: "",
+    descrição: "O livro conta a história de uma família de retirantes, que vivem em meio a pobreza e a seca. Eles vivem de um jeito que a vida os força a viver, sem ter o que comer e sem ter um lar. Em meio a seca, eles lutam para sobreviver, e o livro mostra a crueldade da vida, mas ao mesmo tempo a beleza de uma família que, mesmo sem ter o que comer, tenta ser feliz. Este livro é um marco na história da literatura brasileira, onde ele mostra a realidade da vida, de uma forma que somente um artista seria capaz de fazer.",
+    link: "https://books.google.com.br/books/about/Vidas_Secas.html?id=z1Y8n78h0XMC&redir_esc=y",
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "A Menina que Não Sabia Ler",
+    autor: "John Green",
+    generos: "Ficção/Infanto Juvenil",
+    modalId: "modal17",
+    descrição2: "",
+    descrição: "Este livro conta a história de uma jovem que vive em meio a guerra e a pobreza. Ela se apaixona por um garoto que também vive o drama de ter os pais separados, um pai que é usuário de drogas e uma mãe que faz de tudo para sustentar os dois, ao mesmo tempo que o garoto procura uma vida melhor e a adolescente vive o dilema de se apaixonar por uma pessoa que não a corresponde. Este é um livro que mostra a realidade do que a guerra e a pobreza fazem com o ser humano. É um dos livros mais famosos do autor, que já foi traduzido para vários idiomas e que já teve uma adaptação para o cinema, com uma bela trilha sonora, que nos faz refletir sobre o tema, ao fim do livro.",
+    link: "https://books.google.com.br/books/about/A_Menina_Que_N%C3%A3o_Sabia_Ler.html?id=z1Y8n78h0XMC&redir_esc=y",
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "O Alienista",
+    autor: "Machado de Assis",
+    generos: "Conto",
+    modalId: "modal18",
+    descrição2: "",
+    descrição: "O livro conta a história de um médico que decide ir para o interior de uma pequena cidade. Em meio a várias pessoas de várias profissões, o médico decide que vai curar todos os loucos da cidade. O livro mostra a crueldade da vida, mas ao mesmo tempo a beleza de uma família que, mesmo sem ter o que comer, tenta ser feliz. Este livro é um marco na história da literatura brasileira, onde ele mostra a realidade da vida, de uma forma que somente um artista seria capaz de fazer.",
+    link: "https://books.google.com.br/books/about/O_Alienista.html?id=z1Y8n78h0XMC&redir_esc=y",
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "Eu e O Diabo",
+    autor: "José Saramago",
+    generos: "Ficção",
+    modalId: "modal19",
+    descrição2: "",
+    descrição: "O livro conta a história de um jovem que vive em meio a guerra e a pobreza. Ele se apaixona por uma garota que também vive o drama de ter os pais separados, um pai que é usuário de drogas e uma mãe que faz de tudo para sustentar os dois, ao mesmo tempo que o garoto procura uma vida melhor e a adolescente vive o dilema de se apaixonar por uma pessoa que não a corresponde. Este é um livro que mostra a realidade do que a guerra e a pobreza fazem com o ser humano. É um dos livros mais famosos do autor, que já foi traduzido para vários idiomas e que já teve uma adaptação para o cinema, com uma bela trilha sonora, que nos faz refletir sobre o tema, ao fim do livro.",
+    link: "https://books.google.com.br/books/about/Eu_e_o_Diabo.html?id=z1Y8n78h0XMC&redir_esc=y",
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "A Coroa",
+    autor: "Kiera Cass",
+    generos: "Ficção/Romance",
+    modalId: "modal20",
+    descrição2: "",
+    descrição: "Este livro conta a história de uma jovem que se apaixona por um príncipe, mas ela não consegue se casar com ele. Em meio a várias pessoas de várias profissões, a jovem decide que vai encontrar o seu verdadeiro amor. O livro mostra a crueldade da vida, mas ao mesmo tempo a beleza de uma família que, mesmo sem ter o que comer, tenta ser feliz. Este livro é um marco na história da literatura brasileira, onde ele mostra a realidade da vida, de uma forma que somente um artista seria capaz de fazer.",
+    link: "https://books.google.com.br/books/about/A_Coroa.html?id=z1Y8n78h0XMC&redir_esc=y",
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "O Príncipe",
+    autor: "Maquiavel",
+    generos: "Não Ficção",
+    modalId: "modal21",
+    descrição2: "",
+    descrição: "O livro conta a história de um jovem que busca resolver a vida de seu antigo patrão. Ele decide então ir até o interior de uma pequena cidade, onde vive uma senhora que não era mais vista. O jovem então decide ficar na casa por uma noite, e acaba vendo uma mulher vestida de preto, que o observa de longe, ele não consegue a identificar e decide não fazer nada, até que a noite, ele a vê mais uma vez e acaba descobrindo a sua história. É um livro que tem um belo roteiro e que a história nos leva a ter uma outra visão sobre o tema, ao mesmo tempo que nos mostra que nem tudo que a gente ver é o que parece ser. Teve adaptação para o cinema, com o protagonista sendo um ator de Hollywood.",
+    link: "https://books.google.com.br/books/about/O_Pr%C3%ADncipe.html?id=z1Y8n78h0XMC&redir_esc=y",
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "O Poço e o Pêndulo",
+    autor: "Edgar Allan Poe",
+    generos: "Ficção",
+    modalId: "modal22",
+    descrição2: "",
+    descrição: "Um prisioneiro da Inquisição espanhola acorda em uma cela escura e é submetido a uma série de torturas. Ele deve lutar por sua vida, pois a sua única chance de escapar é se ele conseguir a sua liberdade, a partir de uma pessoa que não está mais lá.",
+    link: "https://books.google.com.br/books/about/O_po%C3%A7o_e_o_p%C3%AAndulo.html?id=z1Y8n78h0XMC&redir_esc=y",
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "O Menino do Pijama Listrado",
+    autor: "John Boyne",
+    generos: "Ficção/Infanto Juvenil",
+    modalId: "modal23",
+    descrição2: "",
+    descrição: "Um jovem que vive em meio a guerra e a pobreza. Ele se apaixona por uma garota que também vive o drama de ter os pais separados, um pai que é usuário de drogas e uma mãe que faz de tudo para sustentar os dois, ao mesmo tempo que o garoto procura uma vida melhor e a adolescente vive o dilema de se apaixonar por uma pessoa que não a corresponde. Este é um livro que mostra a realidade do que a guerra e a pobreza fazem com o ser humano. É um dos livros mais famosos do autor, que já foi traduzido para vários idiomas e que já teve uma adaptação para o cinema, com uma bela trilha sonora, que nos faz refletir sobre o tema, ao fim do livro.",
+    link: "https://books.google.com.br/books/about/O_menino_do_pijama_listrado.html?id=z1Y8n78h0XMC&redir_esc=y",
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "A Mulher de Preto",
+    autor: "Susan Hill",
+    generos: "Ficção",
+    modalId: "modal24",
+    descrição2: "",
+    descrição: "Este livro conta a história de um jovem que busca resolver a vida de seu antigo patrão. Ele decide então ir até o interior de uma pequena cidade, onde vive uma senhora que não era mais vista. O jovem então decide ficar na casa por uma noite, e acaba vendo uma mulher vestida de preto, que o observa de longe, ele não consegue a identificar e decide não fazer nada, até que a noite, ele a vê mais uma vez e acaba descobrindo a sua história. É um livro que tem um belo roteiro e que a história nos leva a ter uma outra visão sobre o tema, ao mesmo tempo que nos mostra que nem tudo que a gente ver é o que parece ser. Teve adaptação para o cinema, com o protagonista sendo um ator de Hollywood.",
+    link: "https://books.google.com.br/books/about/A_Mulher_de_Preto.html?id=z1Y8n78h0XMC&redir_esc=y",
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "A Menina que Não Sabia Ler",
+    autor: "John Green",
+    generos: "Ficção/Infanto Juvenil",
+    modalId: "modal25",
+    descrição2: "",
+    descrição: "Este livro conta a história de uma jovem que vive em meio a guerra e a pobreza. Ela se apaixona por um garoto que também vive o drama de ter os pais separados, um pai que é usuário de drogas e uma mãe que faz de tudo para sustentar os dois, ao mesmo tempo que o garoto procura uma vida melhor e a adolescente vive o dilema de se apaixonar por uma pessoa que não a corresponde. Este é um livro que mostra a realidade do que a guerra e a pobreza fazem com o ser humano. É um dos livros mais famosos do autor, que já foi traduzido para vários idiomas e que já teve uma adaptação para o cinema, com uma bela trilha sonora, que nos faz refletir sobre o tema, ao fim do livro.",
+    link: "https://books.google.com.br/books/about/A_Menina_Que_N%C3%A3o_Sabia_Ler.html?id=z1Y8n78h0XMC&redir_esc=y",
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "A Menina que Roubava Livros",
+    autor: "Markus Zusak",
+    generos: "Ficção",
+    modalId: "modal26",
+    descrição2: "",
+    descrição: "Este livro conta a história de uma jovem órfã que vive durante a Segunda Guerra Mundial, em Munique. Ela é acolhida por uma família que decide morar em um porão, enquanto, ao lado, morava um judeu. A jovem começa a roubar livros por um motivo inusitado, e em um cenário nada ideal, um amor pela literatura é construído, assim como uma bela amizade com o judeu que mora com sua família. Ao mesmo tempo que a menina busca por uma vida normal, por mais que roubasse livros, ela vê a morte de perto, e é a própria que nos conta toda a história, em terceira pessoa, de uma maneira nada convencional, nos cativando e nos convidando a ter uma outra visão sobre a vida e a morte, no fim de tudo, ela vê o que a guerra faz com o ser humano. Teve adaptação para o cinema, sendo um sucesso de bilheteria, além de ter um dos finais mais inesquecíveis, o que nos faz refletir sobre o tema, ao fim do livro.",
+    link: "https://books.google.com.br/books/about/A_menina_que_roubava_livros.html?id=z1Y8n78h0XMC&redir_esc=y",
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "A Menina que Não Sabia Ler",
+    autor: "John Green",
+    generos: "Ficção/Infanto Juvenil",
+    modalId: "modal27",
+    descrição2: "",
+    descrição: "Este livro conta a história de uma jovem que vive em meio a guerra e a pobreza. Ela se apaixona por um garoto que também vive o drama de ter os pais separados, um pai que é usuário de drogas e uma mãe que faz de tudo para sustentar os dois, ao mesmo tempo que o garoto procura uma vida melhor e a adolescente vive o dilema de se apaixonar por uma pessoa que não a corresponde. Este é um livro que mostra a realidade do que a guerra e a pobreza fazem com o ser humano. É um dos livros mais famosos do autor, que já foi traduzido para vários idiomas e que já teve uma adaptação para o cinema, com uma bela trilha sonora, que nos faz refletir sobre o tema, ao fim do livro.",
+    link: "https://books.google.com.br/books/about/A_Menina_Que_N%C3%A3o_Sabia_Ler.html?id=z1Y8n78h0XMC&redir_esc=y",
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "O Menino do Pijama Listrado",
+    autor: "John Boyne",
+    generos: "Ficção/Infanto Juvenil",
+    modalId: "modal28",
+    descrição2: "",
+    descrição: "Este livro conta a história de um menino que vive a Segunda Guerra Mundial e tem sua inocência transformada após o seu pai, comandante de um campo de concentração, receber um novo cargo e ter que se mudar. Seu filho, no entanto, sem entender a guerra, acaba fazendo amizade com uma criança no campo de concentração, em que, no fim, ambos têm seus destinos selados, mostrando a inocência e o lado amigável de uma criança, que não entende o porquê da guerra e, muito menos, do nazismo. É um dos livros mais famosos do mundo e também teve uma adaptação cinematográfica de sucesso. Por isso, caso queira ter uma outra perspectiva, pode assistir o filme ou até mesmo ver uma peça de teatro do livro.",
+    link: "https://books.google.com.br/books/about/O_menino_do_pijama_listrado.html?id=z1Y8n78h0XMC&redir_esc=y",
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "A Menina que Roubava Livros",
+    autor: "Markus Zusak",
+    generos: "Ficção",
+    modalId: "modal29",
+    descrição2: "",
+    descrição: "Este livro conta a história de uma jovem órfã que vive durante a Segunda Guerra Mundial, em Munique. Ela é acolhida por uma família que decide morar em um porão, enquanto, ao lado, morava um judeu. A jovem começa a roubar livros por um motivo inusitado, e em um cenário nada ideal, um amor pela literatura é construído, assim como uma bela amizade com o judeu que mora com sua família. Ao mesmo tempo que a menina busca por uma vida normal, por mais que roubasse livros, ela vê a morte de perto, e é a própria que nos conta toda a história, em terceira pessoa, de uma maneira nada convencional, nos cativando e nos convidando a ter uma outra visão sobre a vida e a morte, no fim de tudo, ela vê o que a guerra faz com o ser humano. Teve adaptação para o cinema, sendo um sucesso de bilheteria, além de ter um dos finais mais inesquecíveis, o que nos faz refletir sobre o tema, ao fim do livro.",
+    link: "https://books.google.com.br/books/about/A_menina_que_roubava_livros.html?id=z1Y8n78h0XMC&redir_esc=y",
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "MIL E UMA ESTRELAS",
+    autor: "MARILDA CASTANHAS",
+    generos: "FICÇÃO/INFANTO JUVENIL",
+    modalId: "modal30",
+    descrição2: "",
+    descrição: "Uma história sobre um garoto que se apaixona por um alienígena.",
+    link: ""
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "GUERRA DENTRO DA GENTE",
+    autor: "PAULO LEMINSKI",
+    generos: "FICÇÃO/INFANTO JUVENIL",
+    modalId: "modal31",
+    descrição2: "",
+    descrição: "Este livro conta a história de um jovem que vive em meio a guerra e a pobreza. Ele se apaixona por uma garota que também vive o drama de ter os pais separados, um pai que é usuário de drogas e uma mãe que faz de tudo para sustentar os dois, ao mesmo tempo que o garoto procura uma vida melhor e a adolescente vive o dilema de se apaixonar por uma pessoa que não a corresponde. Este é um livro que mostra a realidade do que a guerra e a pobreza fazem com o ser humano. É um dos livros mais famosos do autor, que já foi traduzido para vários idiomas e que já teve uma adaptação para o cinema, com uma bela trilha sonora, que nos faz refletir sobre o tema, ao fim do livro.",
+    link: ""
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "TRÊS ANJOS MULATOS DO BRASIL",
+    autor: "RUI DE OLIVEIRA",
+    generos: "FICÇÃO/INFANTO JUVENIL",
+    modalId: "modal32",
+    descrição2: "",
+    descrição: "Uma adolescente se torna membro de um grupo de jovens que resolvem os casos mais estranhos da cidade. Com cinco membros e um plano, eles acabam descobrindo que o responsável pelo sequestro de adolescentes da cidade é um antigo professor. Com a ajuda da turma de jovens, a droga da obediência é criada, para que os sequestros não ocorram mais, e eles então são presos.",
+    link: ""
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "O CASO DO POTE QUEBRADO",
+    autor: "MILTON CELIO DE OLIVEIRA FILHO",
+    generos: "FICÇÃO POLICIAL",
+    modalId: "modal33",
+    descrição2: "",
+    descrição: "O livro conta a história de um jovem que busca resolver a vida de seu antigo patrão. Ele decide então ir até o interior de uma pequena cidade, onde vive uma senhora que não era mais vista. O jovem então decide ficar na casa por uma noite, e acaba vendo uma mulher vestida de preto, que o observa de longe, ele não consegue a identificar e decide não fazer nada, até que a noite, ele a vê mais uma vez e acaba descobrindo a sua história. É um livro que tem um belo roteiro e que a história nos leva a ter uma outra visão sobre o tema, ao mesmo tempo que nos mostra que nem tudo que a gente ver é o que parece ser. Teve adaptação para o cinema, com o protagonista sendo um ator de Hollywood.",
+    link: ""
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "GUERRA DENTRO DA GENTE",
+    autor: "PAULO LEMINSKI",
+    generos: "FICÇÃO/INFANTO JUVENIL",
+    modalId: "modal34",
+    descrição2: "",
+    descrição: "Este livro conta a história de um jovem que vive em meio a guerra e a pobreza. Ele se apaixona por uma garota que também vive o drama de ter os pais separados, um pai que é usuário de drogas e uma mãe que faz de tudo para sustentar os dois, ao mesmo tempo que o garoto procura uma vida melhor e a adolescente vive o dilema de se apaixonar por uma pessoa que não a corresponde. Este é um livro que mostra a realidade do que a guerra e a pobreza fazem com o ser humano. É um dos livros mais famosos do autor, que já foi traduzido para vários idiomas e que já teve uma adaptação para o cinema, com uma bela trilha sonora, que nos faz refletir sobre o tema, ao fim do livro.",
+    link: ""
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "PIRAHY/ UMA AVENTURA NO TIETE",
+    autor: "LUIZ CARLOS DA SILVA",
+    generos: "FICÇÃO BRASILEIRA",
+    modalId: "modal35",
+    descrição2: "",
+    descrição: "Em uma pequena cidade com estranhas regras, um menino embarca numa viagem mágica para descobrir o segredo dos sonhos.",
+    link: ""
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "ILUMINURAS",
+    autor: "ROSANA RIOS",
+    generos: "FICÇÃO BRASILEIRA",
+    modalId: "modal36",
+    descrição2: "",
+    descrição: "Uma adolescente vive em meio a guerra e a pobreza. Ela se apaixona por um garoto que também vive o drama de ter os pais separados, um pai que é usuário de drogas e uma mãe que faz de tudo para sustentar os dois, ao mesmo tempo que o garoto procura uma vida melhor e a adolescente vive o dilema de se apaixonar por uma pessoa que não a corresponde. Este é um livro que mostra a realidade do que a guerra e a pobreza fazem com o ser humano. É um dos livros mais famosos do autor, que já foi traduzido para vários idiomas e que já teve uma adaptação para o cinema, com uma bela trilha sonora, que nos faz refletir sobre o tema, ao fim do livro.",
+    link: ""
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "PLUFT, O FANTASMINHA ",
+    autor: "MARIA CLARA MACHADO",
+    generos: "FICÇÃO/INFANTO JUVENIL",
+    modalId: "modal37",
+    descrição2: "",
+    descrição: "Este livro conta a história de um jovem que busca resolver a vida de seu antigo patrão. Ele decide então ir até o interior de uma pequena cidade, onde vive uma senhora que não era mais vista. O jovem então decide ficar na casa por uma noite, e acaba vendo uma mulher vestida de preto, que o observa de longe, ele não consegue a identificar e decide não fazer nada, até que a noite, ele a vê mais uma vez e acaba descobrindo a sua história. É um livro que tem um belo roteiro e que a história nos leva a ter uma outra visão sobre o tema, ao mesmo tempo que nos mostra que nem tudo que a gente ver é o que parece ser. Teve adaptação para o cinema, com o protagonista sendo um ator de Hollywood.",
+    link: ""
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "O MINOTAURO",
+    autor: "MONTEIRO LOBATO",
+    generos: "LITERATURA INFANTO JUVENIL",
+    modalId: "modal38",
+    descrição2: "",
+    descrição: "O livro conta a história de um garoto que se apaixona por um alienígena. Ele então descobre o amor, a amizade e a alegria, mostrando que o essencial é invisível aos olhos.",
+    link: ""
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "OS DOZE TRABALHOS DE HÉRCULES",
+    autor: "MONTEIRO LOBATO",
+    generos: "LITERATURA INFANTO JUVENIL",
+    modalId: "modal39",
+    descrição2: "",
+    descrição: "Uma adolescente se torna membro de um grupo de jovens que resolvem os casos mais estranhos da cidade. Com cinco membros e um plano, eles acabam descobrindo que o responsável pelo sequestro de adolescentes da cidade é um antigo professor. Com a ajuda da turma de jovens, a droga da obediência é criada, para que os sequestros não ocorram mais, e eles então são presos.",
+    link: ""
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "PETER PAN",
+    autor: "MONTEIRO LOBATO",
+    generos: "LITERATURA INFANTO JUVENIL",
+    modalId: "modal40",
+    descrição2: "",
+    descrição: "O livro conta a história de um jovem que vive em meio a guerra e a pobreza. Ele se apaixona por uma garota que também vive o drama de ter os pais separados, um pai que é usuário de drogas e uma mãe que faz de tudo para sustentar os dois, ao mesmo tempo que o garoto procura uma vida melhor e a adolescente vive o dilema de se apaixonar por uma pessoa que não a corresponde. Este é um livro que mostra a realidade do que a guerra e a pobreza fazem com o ser humano. É um dos livros mais famosos do autor, que já foi traduzido para vários idiomas e que já teve uma adaptação para o cinema, com uma bela trilha sonora, que nos faz refletir sobre o tema, ao fim do livro.",
+    link: ""
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "AVENTURAS DE HANS STADEN",
+    autor: "MONTEIRO LOBATO",
+    generos: "LITERATURA INFANTO JUVENIL",
+    modalId: "modal41",
+    descrição2: "",
+    descrição: "Em uma pequena cidade com estranhas regras, um menino embarca numa viagem mágica para descobrir o segredo dos sonhos.",
+    link: ""
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "HISTÓRIAS DO MUNDO PARA CRIANÇAS",
+    autor: "MONTEIRO LOBATO",
+    generos: "LITERATURA INFANTO JUVENIL",
+    modalId: "modal42",
+    descrição2: "",
+    descrição: "O livro conta a história de um jovem que busca resolver a vida de seu antigo patrão. Ele decide então ir até o interior de uma pequena cidade, onde vive uma senhora que não era mais vista. O jovem então decide ficar na casa por uma noite, e acaba vendo uma mulher vestida de preto, que o observa de longe, ele não consegue a identificar e decide não fazer nada, até que a noite, ele a vê mais uma vez e acaba descobrindo a sua história. É um livro que tem um belo roteiro e que a história nos leva a ter uma outra visão sobre o tema, ao mesmo tempo que nos mostra que nem tudo que a gente ver é o que parece ser. Teve adaptação para o cinema, com o protagonista sendo um ator de Hollywood.",
+    link: ""
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "DOM QUIXOTE DAS CRIANÇAS",
+    autor: "MONTEIRO LOBATO",
+    generos: "LITERATURA INFANTO JUVENIL",
+    modalId: "modal43",
+    descrição2: "",
+    descrição: "Uma adolescente vive em meio a guerra e a pobreza. Ela se apaixona por um garoto que também vive o drama de ter os pais separados, um pai que é usuário de drogas e uma mãe que faz de tudo para sustentar os dois, ao mesmo tempo que o garoto procura uma vida melhor e a adolescente vive o dilema de se apaixonar por uma pessoa que não a corresponde. Este é um livro que mostra a realidade do que a guerra e a pobreza fazem com o ser humano. É um dos livros mais famosos do autor, que já foi traduzido para vários idiomas e que já teve uma adaptação para o cinema, com uma bela trilha sonora, que nos faz refletir sobre o tema, ao fim do livro.",
+    link: ""
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "MEMÓRIAS DA EMÍLIA",
+    autor: "MONTEIRO LOBATO",
+    generos: "LITERATURA INFANTO JUVENIL",
+    modalId: "modal44",
+    descrição2: "",
+    descrição: "O livro conta a história de um jovem que vive em meio a guerra e a pobreza. Ele se apaixona por uma garota que também vive o drama de ter os pais separados, um pai que é usuário de drogas e uma mãe que faz de tudo para sustentar os dois, ao mesmo tempo que o garoto procura uma vida melhor e a adolescente vive o dilema de se apaixonar por uma pessoa que não a corresponde. Este é um livro que mostra a realidade do que a guerra e a pobreza fazem com o ser humano. É um dos livros mais famosos do autor, que já foi traduzido para vários idiomas e que já teve uma adaptação para o cinema, com uma bela trilha sonora, que nos faz refletir sobre o tema, ao fim do livro.",
+    link: ""
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "EU FIKO LOKO - AS DESAVENTURAS DE UM ADOL.NADA CON.",
+    autor: "CHRISTIAN FIGUEIREDO DE CALDAS",
+    generos: "CRÔNICAS BRASILEIRA",
+    modalId: "modal45",
+    descrição2: "",
+    descrição: "O livro conta a história de um jovem que busca resolver a vida de seu antigo patrão. Ele decide então ir até o interior de uma pequena cidade, onde vive uma senhora que não era mais vista. O jovem então decide ficar na casa por uma noite, e acaba vendo uma mulher vestida de preto, que o observa de longe, ele não consegue a identificar e decide não fazer nada, até que a noite, ele a vê mais uma vez e acaba descobrindo a sua história. É um livro que tem um belo roteiro e que a história nos leva a ter uma outra visão sobre o tema, ao mesmo tempo que nos mostra que nem tudo que a gente ver é o que parece ser. Teve adaptação para o cinema, com o protagonista sendo um ator de Hollywood.",
+    link: ""
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "EU FIKO LOKO - AS HISTÓRIAS QUE TIVE MEDO DE CONTAR",
+    autor: "CHRISTIAN FIGUEIREDO DE CALDAS",
+    generos: "CRÔNICAS BRASILEIRA",
+    modalId: "modal46",
+    descrição2: "",
+    descrição: "Uma adolescente se torna membro de um grupo de jovens que resolvem os casos mais estranhos da cidade. Com cinco membros e um plano, eles acabam descobrindo que o responsável pelo sequestro de adolescentes da cidade é um antigo professor. Com a ajuda da turma de jovens, a droga da obediência é criada, para que os sequestros não ocorram mais, e eles então são presos.",
+    link: ""
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "A FAVELA VENCEU",
+    autor: "RICK CHESTHER",
+    generos: "AUTO AJUDA",
+    modalId: "modal47",
+    descrição2: "",
+    descrição: "O livro conta a história de um jovem que vive em meio a guerra e a pobreza. Ele se apaixona por uma garota que também vive o drama de ter os pais separados, um pai que é usuário de drogas e uma mãe que faz de tudo para sustentar os dois, ao mesmo tempo que o garoto procura uma vida melhor e a adolescente vive o dilema de se apaixonar por uma pessoa que não a corresponde. Este é um livro que mostra a realidade do que a guerra e a pobreza fazem com o ser humano. É um dos livros mais famosos do autor, que já foi traduzido para vários idiomas e que já teve uma adaptação para o cinema, com uma bela trilha sonora, que nos faz refletir sobre o tema, ao fim do livro.",
+    link: ""
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "TATA BALÃO",
+    autor: "SONIA BARROS",
+    generos: "LITERATURA INFANTO JUVENIL",
+    modalId: "modal48",
+    descrição2: "",
+    descrição: "Em uma pequena cidade com estranhas regras, um menino embarca numa viagem mágica para descobrir o segredo dos sonhos.",
+    link: ""
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "A LINGUAGEM DO CORPO",
+    autor: "DAVID COHEN",
+    generos: "PSICOLOGIA",
+    modalId: "modal49",
+    descrição2: "",
+    descrição: "O livro conta a história de um jovem que busca resolver a vida de seu antigo patrão. Ele decide então ir até o interior de uma pequena cidade, onde vive uma senhora que não era mais vista. O jovem então decide ficar na casa por uma noite, e acaba vendo uma mulher vestida de preto, que o observa de longe, ele não consegue a identificar e decide não fazer nada, até que a noite, ele a vê mais uma vez e acaba descobrindo a sua história. É um livro que tem um belo roteiro e que a história nos leva a ter uma outra visão sobre o tema, ao mesmo tempo que nos mostra que nem tudo que a gente ver é o que parece ser. Teve adaptação para o cinema, com o protagonista sendo um ator de Hollywood.",
+    link: ""
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "MANGÁ INÉDITO VIDEO GAME",
+    autor: "SHIRO AMANO",
+    generos: "HISTÓRIA  EM QUADRINHOS",
+    modalId: "modal50",
+    descrição2: "",
+    descrição: "Uma adolescente vive em meio a guerra e a pobreza. Ela se apaixona por um garoto que também vive o drama de ter os pais separados, um pai que é usuário de drogas e uma mãe que faz de tudo para sustentar os dois, ao mesmo tempo que o garoto procura uma vida melhor e a adolescente vive o dilema de se apaixonar por uma pessoa que não a corresponde. Este é um livro que mostra a realidade do que a guerra e a pobreza fazem com o ser humano. É um dos livros mais famosos do autor, que já foi traduzido para vários idiomas e que já teve uma adaptação para o cinema, com uma bela trilha sonora, que nos faz refletir sobre o tema, ao fim do livro.",
+    link: ""
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "MANGÁ - NISEKOI ",
+    autor: "SHIRO AMANO",
+    generos: "HISTÓRIA  EM QUADRINHOS",
+    modalId: "modal51",
+    descrição2: "",
+    descrição: "O livro conta a história de um jovem que vive em meio a guerra e a pobreza. Ele se apaixona por uma garota que também vive o drama de ter os pais separados, um pai que é usuário de drogas e uma mãe que faz de tudo para sustentar os dois, ao mesmo tempo que o garoto procura uma vida melhor e a adolescente vive o dilema de se apaixonar por uma pessoa que não a corresponde. Este é um livro que mostra a realidade do que a guerra e a pobreza fazem com o ser humano. É um dos livros mais famosos do autor, que já foi traduzido para vários idiomas e que já teve uma adaptação para o cinema, com uma bela trilha sonora, que nos faz refletir sobre o tema, ao fim do livro.",
+    link: ""
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "SEQUESTRO NO CIBERMUNDO",
+    autor: "MARCO TÚLIO COSTA",
+    generos: "FICÇÃO JUVENIL",
+    modalId: "modal52",
+    descrição2: "",
+    descrição: "Em uma pequena cidade com estranhas regras, um menino embarca numa viagem mágica para descobrir o segredo dos sonhos.",
+    link: ""
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "LOVELY COMPLEX",
+    autor: "AYA NAKAHARA",
+    generos: "QUADRINHOS",
+    modalId: "modal53",
+    descrição2: "",
+    descrição: "O livro conta a história de um jovem que busca resolver a vida de seu antigo patrão. Ele decide então ir até o interior de uma pequena cidade, onde vive uma senhora que não era mais vista. O jovem então decide ficar na casa por uma noite, e acaba vendo uma mulher vestida de preto, que o observa de longe, ele não consegue a identificar e decide não fazer nada, até que a noite, ele a vê mais uma vez e acaba descobrindo a sua história. É um livro que tem um belo roteiro e que a história nos leva a ter uma outra visão sobre o tema, ao mesmo tempo que nos mostra que nem tudo que a gente ver é o que parece ser. Teve adaptação para o cinema, com o protagonista sendo um ator de Hollywood.",
+    link: ""
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "TURMA DA MONICA JOVEM-UM MUNDO DE DISTÂNCIA",
+    autor: "MAURICIO",
+    generos: "QUADRINHOS",
+    modalId: "modal54",
+    descrição2: "",
+    descrição: "Uma adolescente vive em meio a guerra e a pobreza. Ela se apaixona por um garoto que também vive o drama de ter os pais separados, um pai que é usuário de drogas e uma mãe que faz de tudo para sustentar os dois, ao mesmo tempo que o garoto procura uma vida melhor e a adolescente vive o dilema de se apaixonar por uma pessoa que não a corresponde. Este é um livro que mostra a realidade do que a guerra e a pobreza fazem com o ser humano. É um dos livros mais famosos do autor, que já foi traduzido para vários idiomas e que já teve uma adaptação para o cinema, com uma bela trilha sonora, que nos faz refletir sobre o tema, ao fim do livro.",
+    link: ""
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "A TURMA DA MÔNICA JOVEM - JOGOS MORTÍFEROS",
+    autor: "MAURÍCIO",
+    generos: "QUADRINHOS",
+    modalId: "modal55",
+    descrição2: "",
+    descrição: "O livro conta a história de um jovem que vive em meio a guerra e a pobreza. Ele se apaixona por uma garota que também vive o drama de ter os pais separados, um pai que é usuário de drogas e uma mãe que faz de tudo para sustentar os dois, ao mesmo tempo que o garoto procura uma vida melhor e a adolescente vive o dilema de se apaixonar por uma pessoa que não a corresponde. Este é um livro que mostra a realidade do que a guerra e a pobreza fazem com o ser humano. É um dos livros mais famosos do autor, que já foi traduzido para vários idiomas e que já teve uma adaptação para o cinema, com uma bela trilha sonora, que nos faz refletir sobre o tema, ao fim do livro.",
+    link: ""
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "A TURMA DA MÔNICA JOVEM - A CAPITÃ CASCUDA",
+    autor: "MAURÍCIO",
+    generos: "QUADRINHOS",
+    modalId: "modal56",
+    descrição2: "",
+    descrição: "Em uma pequena cidade com estranhas regras, um menino embarca numa viagem mágica para descobrir o segredo dos sonhos.",
+    link: ""
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "MANUAL DO NOVO GERENTE",
+    autor: "MOREY STETTNER",
+    generos: "ADMINISTRAÇÃO",
+    modalId: "modal57",
+    descrição2: "",
+    descrição: "Uma adolescente se torna membro de um grupo de jovens que resolvem os casos mais estranhos da cidade. Com cinco membros e um plano, eles acabam descobrindo que o responsável pelo sequestro de adolescentes da cidade é um antigo professor. Com a ajuda da turma de jovens, a droga da obediência é criada, para que os sequestros não ocorram mais, e eles então são presos.",
+    link: ""
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "COMO EVITAR PREOCUPAÇÕES E COMEÇAR A VIVER",
+    autor: "DALE CARNEGIE",
+    generos: "PSICOLOGIA",
+    modalId: "modal58",
+    descrição2: "",
+    descrição: "O livro conta a história de um jovem que vive em meio a guerra e a pobreza. Ele se apaixona por uma garota que também vive o drama de ter os pais separados, um pai que é usuário de drogas e uma mãe que faz de tudo para sustentar os dois, ao mesmo tempo que o garoto procura uma vida melhor e a adolescente vive o dilema de se apaixonar por uma pessoa que não a corresponde. Este é um livro que mostra a realidade do que a guerra e a pobreza fazem com o ser humano. É um dos livros mais famosos do autor, que já foi traduzido para vários idiomas e que já teve uma adaptação para o cinema, com uma bela trilha sonora, que nos faz refletir sobre o tema, ao fim do livro.",
+    link: ""
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "COMO FAZER AMIGOS E INFLUENCIAR PESSOAS",
+    autor: "DALE CARNEGIE",
+    generos: "PSICOLOGIA",
+    modalId: "modal59",
+    descrição2: "",
+    descrição: "Em uma pequena cidade com estranhas regras, um menino embarca numa viagem mágica para descobrir o segredo dos sonhos.",
+    link: ""
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "SUPER APRESENTAÇÕES -COMO VENDER IDÉIAS E  CONQ.",
+    autor: "JONI GALVÃO",
+    generos: "ADMINISTRAÇÃO",
+    modalId: "modal60",
+    descrição2: "",
+    descrição: "O livro conta a história de um jovem que busca resolver a vida de seu antigo patrão. Ele decide então ir até o interior de uma pequena cidade, onde vive uma senhora que não era mais vista. O jovem então decide ficar na casa por uma noite, e acaba vendo uma mulher vestida de preto, que o observa de longe, ele não consegue a identificar e decide não fazer nada, até que a noite, ele a vê mais uma vez e acaba descobrindo a sua história. É um livro que tem um belo roteiro e que a história nos leva a ter uma outra visão sobre o tema, ao mesmo tempo que nos mostra que nem tudo que a gente ver é o que parece ser. Teve adaptação para o cinema, com o protagonista sendo um ator de Hollywood.",
+    link: ""
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "A BOA SORTE",
+    autor: "ALEX ROVIRA CELMA/FERNANDO TRIAS ",
+    generos: "ADMINISTRAÇÃO",
+    modalId: "modal61",
+    descrição2: "",
+    descrição: "Uma adolescente vive em meio a guerra e a pobreza. Ela se apaixona por um garoto que também vive o drama de ter os pais separados, um pai que é usuário de drogas e uma mãe que faz de tudo para sustentar os dois, ao mesmo tempo que o garoto procura uma vida melhor e a adolescente vive o dilema de se apaixonar por uma pessoa que não a corresponde. Este é um livro que mostra a realidade do que a guerra e a pobreza fazem com o ser humano. É um dos livros mais famosos do autor, que já foi traduzido para vários idiomas e que já teve uma adaptação para o cinema, com uma bela trilha sonora, que nos faz refletir sobre o tema, ao fim do livro.",
+    link: ""
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "GUIA DAS ESTÂNCIAS DO ESTADO DE SÃO PAULO",
+    autor: "ASSOCIAÇÃO DAS PREFEITURAS",
+    generos: "TURISMO",
+    modalId: "modal62",
+    descrição2: "",
+    descrição: "O livro conta a história de um jovem que vive em meio a guerra e a pobreza. Ele se apaixona por uma garota que também vive o drama de ter os pais separados, um pai que é usuário de drogas e uma mãe que faz de tudo para sustentar os dois, ao mesmo tempo que o garoto procura uma vida melhor e a adolescente vive o dilema de se apaixonar por uma pessoa que não a corresponde. Este é um livro que mostra a realidade do que a guerra e a pobreza fazem com o ser humano. É um dos livros mais famosos do autor, que já foi traduzido para vários idiomas e que já teve uma adaptação para o cinema, com uma bela trilha sonora, que nos faz refletir sobre o tema, ao fim do livro.",
+    link: ""
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "ROTEADORES E SWITCHES - GUIA DE CONFIGURAÇÃO",
+    autor: "MARCELO BRENZINK DO NASCIMENTO",
+    generos: "ADMINISTRAÇÃO",
+    modalId: "modal63",
+    descrição2: "",
+    descrição: "Em uma pequena cidade com estranhas regras, um menino embarca numa viagem mágica para descobrir o segredo dos sonhos.",
+    link: ""
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "USO DE LA GRAMÁTICA ESPANHOLA",
+    autor: "FRANCISCA CASTRO",
+    generos: "GRAMÁTICA ESPANHOL",
+    modalId: "modal64",
+    descrição2: "",
+    descrição: "Uma adolescente se torna membro de um grupo de jovens que resolvem os casos mais estranhos da cidade. Com cinco membros e um plano, eles acabam descobrindo que o responsável pelo sequestro de adolescentes da cidade é um antigo professor. Com a ajuda da turma de jovens, a droga da obediência é criada, para que os sequestros não ocorram mais, e eles então são presos.",
+    link: ""
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "O VERDADEIRO PODER",
+    autor: "VICENTE FALCONI",
+    generos: "ADMINISTRAÇÃO",
+    modalId: "modal65",
+    descrição2: "",
+    descrição: "O livro conta a história de um jovem que vive em meio a guerra e a pobreza. Ele se apaixona por uma garota que também vive o drama de ter os pais separados, um pai que é usuário de drogas e uma mãe que faz de tudo para sustentar os dois, ao mesmo tempo que o garoto procura uma vida melhor e a adolescente vive o dilema de se apaixonar por uma pessoa que não a corresponde. Este é um livro que mostra a realidade do que a guerra e a pobreza fazem com o ser humano. É um dos livros mais famosos do autor, que já foi traduzido para vários idiomas e que já teve uma adaptação para o cinema, com uma bela trilha sonora, que nos faz refletir sobre o tema, ao fim do livro.",
+    link: ""
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "O Menino do Pijama Listrado",
+    autor: "John Boyne",
+    generos: "Ficção/Infanto Juvenil",
+    modalId: "modal66",
+    descrição2: "",
+    descrição: "Este livro conta a história de um menino que vive a Segunda Guerra Mundial e tem sua inocência transformada após o seu pai, comandante de um campo de concentração, receber um novo cargo e ter que se mudar. Seu filho, no entanto, sem entender a guerra, acaba fazendo amizade com uma criança no campo de concentração, em que, no fim, ambos têm seus destinos selados, mostrando a inocência e o lado amigável de uma criança, que não entende o porquê da guerra e, muito menos, do nazismo. É um dos livros mais famosos do mundo e também teve uma adaptação cinematográfica de sucesso. Por isso, caso queira ter uma outra perspectiva, pode assistir o filme ou até mesmo ver uma peça de teatro do livro.",
+    link: "https://books.google.com.br/books?id=h-P4DwAAQBAJ&printsec=frontcover&hl=pt-BR&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false",
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "A Culpa é das Estrelas",
+    autor: "John Green",
+    generos: "Ficção/Romance",
+    modalId: "modal67",
+    descrição2: "",
+    descrição: "Hazel Grace e Augustus Waters, dois jovens pacientes com câncer, se apaixonam e embarcam em uma jornada para encontrar um autor recluso, desafiando a doença e o tempo.",
+    link: "https://books.google.com.br/books/about/A_culpa_%C3%A9_das_estrelas.html?id=z1Y8n78h0XMC&redir_esc=y",
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "A Menina que Roubava Livros",
+    autor: "Markus Zusak",
+    generos: "Ficção",
+    modalId: "modal68",
+    descrição2: "",
+    descrição: "Este livro conta a história de uma jovem órfã que vive durante a Segunda Guerra Mundial, em Munique. Ela é acolhida por uma família que decide morar em um porão, enquanto, ao lado, morava um judeu. A jovem começa a roubar livros por um motivo inusitado, e em um cenário nada ideal, um amor pela literatura é construído, assim como uma bela amizade com o judeu que mora com sua família. Ao mesmo tempo que a menina busca por uma vida normal, por mais que roubasse livros, ela vê a morte de perto, e é a própria que nos conta toda a história, em terceira pessoa, de uma maneira nada convencional, nos cativando e nos convidando a ter uma outra visão sobre a vida e a morte, no fim de tudo, ela vê o que a guerra faz com o ser humano. Teve adaptação para o cinema, sendo um sucesso de bilheteria, além de ter um dos finais mais inesquecíveis, o que nos faz refletir sobre o tema, ao fim do livro.",
+    link: "https://books.google.com.br/books/about/A_menina_que_roubava_livros.html?id=z1Y8n78h0XMC&redir_esc=y",
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "O Pequeno Príncipe",
+    autor: "Antoine de Saint-Exupéry",
+    generos: "Literatura",
+    modalId: "modal69",
+    descrição2: "",
+    descrição: "Um piloto perdido no deserto encontra um príncipe de outro planeta. Ele então descobre o amor, a amizade e a alegria, mostrando que o essencial é invisível aos olhos.",
+    link: "https://books.google.com.br/books/about/O_Pequeno_Pr%C3%ADncipe.html?id=oY9jDwAAQBAJ&redir_esc=y",
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "A Droga da Obediência",
+    autor: "Pedro Bandeira",
+    generos: "Ficção/Juvenil",
+    modalId: "modal70",
+    descrição2: "",
+    descrição: "Uma adolescente se torna membro de um grupo de jovens que resolvem os casos mais estranhos da cidade. Com cinco membros e um plano, eles acabam descobrindo que o responsável pelo sequestro de adolescentes da cidade é um antigo professor. Com a ajuda da turma de jovens, a droga da obediência é criada, para que os sequestros não ocorram mais, e eles então são presos.",
+    link: "https://books.google.com.br/books/about/A_droga_da_obedi%C3%AAncia.html?id=4jF6DwAAQBAJ&redir_esc=y",
+  },
+  {
+    imagem: "SRC/LivroGênerosImg/Nenhum resultado encontrado.png",
+    titulo: "O Cortiço",
+    autor: "Aluísio Azevedo",
+    generos: "Romance",
+    modalId: "modal71",
+    descrição2: "",
+    descrição: "O livro conta a história de um português que decide se mudar para o Brasil em busca de uma vida melhor. Ao construir uma casa, ele decide que vai abrigar trabalhadores, e com isso, o cortiço é construído. Em meio a várias pessoas de várias profissões, o romance se constrói, com a vizinhança, a traição e a inveja. Ao mesmo tempo, ele se apaixona por uma mulher casada e acaba a abandonando. O protagonista se vê em meio a decisões amorosas e pessoais que o afetam, ao mesmo tempo, que ele tenta esconder a sua verdadeira personalidade. Este livro é um marco na história da literatura brasileira, onde ele mostra as mais diferentes culturas e personalidades, de uma forma que somente um artista seria capaz de fazer.",
+    link: "https://books.google.com.br/books/about/O_corti%C3%A7o.html?id=z1Y8n78h0XMC&redir_esc=y",
+  },
+
+  
+
 
 ];
 
@@ -95,7 +731,7 @@ const livrosCarrosel = [
     label: "Abrir modal do livro Eu Sou Malala",
     modalId: "modal1",
     alt: "Capa do livro Eu Sou Malala",
-    link: "https://annacrafts.wordpress.com/wp-content/uploads/2014/10/malala-yousafzai-eu-sou-malala.pdf"
+    link: "https://annacrafts.wordpress.com/wp-content/uploads/2014/10/malala-yousafzai-eu-sou-malala.pdf",
   },
   {
     imagem: "SRC/LivroGênerosImg/Diário de uma garota nada popular.png",
@@ -105,7 +741,7 @@ const livrosCarrosel = [
     label: "Abrir modal do Diário de uma garota nada popular",
     modalId: "modal2",
     alt: "Capa do livro Diário de uma garota nada popular",
-    link: "https://cdn.bookey.app/files/pdf/book/pt/diario-de-uma-garota-nada-popular---vol-3.pdf"
+    link: "https://cdn.bookey.app/files/pdf/book/pt/diario-de-uma-garota-nada-popular---vol-3.pdf",
   },
   {
     imagem: "SRC/LivroGênerosImg/O Diário de Anne Frank.png",
@@ -114,7 +750,7 @@ const livrosCarrosel = [
     descrição: "Suas anotações narram os sentimentos, os medos e as pequenas alegrias de uma menina judia que, como sua família, lutou em vão para sobreviver ao Holocausto. Uma poderosa lembrança dos horrores de uma guerra, um testemunho eloquente do espírito humano. Assim podemos descrever os relatos feitos por Anne em seu diário.",
     modalId: "modal3",
     alt: "Capa do livro O Diário de Anne Frank",
-    link: "https://drive.google.com/file/d/15m8iFpLUYiRN80BVxk6DL5EuOqs0wE5z/view"
+    link: "https://drive.google.com/file/d/15m8iFpLUYiRN80BVxk6DL5EuOqs0wE5z/view",
   },
   {
     imagem: "SRC/LivroGênerosImg/Susy e as águas - vivas.png",
@@ -123,7 +759,7 @@ const livrosCarrosel = [
     descrição: "Este livro tem uma história que aborda temas sensíveis como perdas, luto, aceitação, amizades e seus possíveis fins trágicos. Tem uma narrativa delicada e comovente, nos fazendo mergulhar nos pensamentos e sentimentos da jovem Suzy, uma garota de doze anos que está enfrentando a morte repentina de sua ex melhor amiga.",
     modalId: "modal4",
     alt: "Capa do livro Susy e as águas - vivas",
-    link: "https://drive.google.com/file/d/15m8iFpLUYiRN80BVxk6DL5EuOqs0wE5z/view"
+    link: "https://drive.google.com/file/d/15m8iFpLUYiRN80BVxk6DL5EuOqs0wE5z/view",
   },
   {
     imagem: "SRC/LivroGênerosImg/Shakespeare 1.png",
@@ -133,7 +769,7 @@ const livrosCarrosel = [
     descrição: "As peças históricas de Shakespeare, também conhecidas como ''Histórias'', são um dos géneros dramáticos mais importantes do autor. Elas retratam a história da Inglaterra, focando frequentemente em eventos e personagens reais, embora Shakespeare tenha tomado algumas liberdades criativas para fins dramáticos.",
     modalId: "modal5",
     alt: "Capa do livro Shakespeare",
-    link: "#"
+    link: "#",
   },
   {
     imagem: "SRC/LivroGênerosImg/O Gato Preto 1.png",
@@ -143,7 +779,7 @@ const livrosCarrosel = [
     descrição: "O Gato Preto é um dos mais perturbadores contos de Edgar Allan Poe. Um homem que adora animais se transforma em um perverso ser, cometendo atrocidades com seu gato de estimação. A insanidade é amplificada pelo consumo exagerado de álcool, o que o torna cada vez mais violento.",
     modalId: "modal6",
     alt: "Capa do livro O Gato Preto",
-    link: "#"
+    link: "#",
   },
   {
     imagem: "SRC/LivroGênerosImg/O fanstástico mistério de Feiurinha 1.png",
@@ -153,7 +789,7 @@ const livrosCarrosel = [
     descrição: "explora o que acontece após o ''felizes para sempre'' dos contos de fadas, questionando a ideia de que a felicidade reside apenas no casamento e na rotina familiar. A história acompanha Branca de Neve e outras princesas em busca de Feiurinha, uma princesa cujo conto ainda não foi escrito, e que desapareceu.",
     modalId: "modal7",
     alt: "Capa do livro O fanstástico mistério de Feiurinha",
-    link: "https://fd1c0b533e.cbaul-cdnwnd.com/88ae37cf5085e04655dc1589ba74ed0f/200000136-2e2192f1be/O_Fantastico_Mist%C3%A9rio_de_Feiurinha_-_Pedro_Bandeira.pdf"
+    link: "https://fd1c0b533e.cbaul-cdnwnd.com/88ae37cf5085e04655dc1589ba74ed0f/200000136-2e2192f1be/O_Fantastico_Mist%C3%A9rio_de_Feiurinha_-_Pedro_Bandeira.pdf",
   },
 ];
 
@@ -168,7 +804,7 @@ const livrosCarroselMaisPedido = [
     label: "Abrir modal do Gibis Sonic The Hedgehog – Volume 1 Depois da guerra",
     modalId: "modal8",
     alt: "Capa do livro Sonic The Hedgehog – Volume 1 Depois da guerra",
-    link: "https://grabber.zone/comics/idw-sonic-portugues/volume-1/"
+    link: "https://grabber.zone/comics/idw-sonic-portugues/volume-1/",
   },
   {
     imagem: "SRC/LivroGênerosImg/Sonic The Hedgehog – Volume 2 A sina do Dr. Eggman.png",
@@ -178,7 +814,7 @@ const livrosCarroselMaisPedido = [
     label: "Abrir modal do Gibis Sonic The Hedgehog – Volume 2 A sina do Dr. Eggman",
     modalId: "modal9",
     alt: "Capa do livro Sonic The Hedgehog – Volume 2 A sina do Dr. Eggman",
-    link: "https://grabber.zone/comics/idw-sonic-portugues/volume-2/"
+    link: "https://grabber.zone/comics/idw-sonic-portugues/volume-2/",
   },
   {
     imagem: "SRC/LivroGênerosImg/eu sou malala.png",
@@ -188,7 +824,7 @@ const livrosCarroselMaisPedido = [
     label: "Abrir modal do livro Eu Sou Malala",
     modalId: "modal10",
     alt: "Capa do livro Eu Sou Malala",
-    link: "#https://annacrafts.wordpress.com/wp-content/uploads/2014/10/malala-yousafzai-eu-sou-malala.pdf"
+    link: "#https://annacrafts.wordpress.com/wp-content/uploads/2014/10/malala-yousafzai-eu-sou-malala.pdf",
   },
   {
     imagem: "SRC/LivroGênerosImg/Diário de uma garota nada popular.png",
@@ -198,7 +834,7 @@ const livrosCarroselMaisPedido = [
     label: "Abrir modal do Diário de uma garota nada popular",
     modalId: "modal11",
     alt: "Capa do livro Diário de uma garota nada popular",
-    link: "https://cdn.bookey.app/files/pdf/book/pt/diario-de-uma-garota-nada-popular---vol-3.pdf"
+    link: "https://cdn.bookey.app/files/pdf/book/pt/diario-de-uma-garota-nada-popular---vol-3.pdf",
   },
   {
     imagem: "SRC/LivroGênerosImg/Susy e as águas - vivas.png",
@@ -207,7 +843,7 @@ const livrosCarroselMaisPedido = [
     descrição: "Este livro tem uma história que aborda temas sensíveis como perdas, luto, aceitação, amizades e seus possíveis fins trágicos. Tem uma narrativa delicada e comovente, nos fazendo mergulhar nos pensamentos e sentimentos da jovem Suzy, uma garota de doze anos que está enfrentando a morte repentina de sua ex melhor amiga.",
     modalId: "modal12",
     alt: "Capa do livro Susy e as águas - vivas",
-    link: "#"
+    link: "#",
   },
   {
     imagem: "SRC/LivroGênerosImg/Shakespeare 1.png",
@@ -217,7 +853,7 @@ const livrosCarroselMaisPedido = [
     descrição: "As peças históricas de Shakespeare, também conhecidas como ''Histórias'', são um dos géneros dramáticos mais importantes do autor. Elas retratam a história da Inglaterra, focando frequentemente em eventos e personagens reais, embora Shakespeare tenha tomado algumas liberdades criativas para fins dramáticos.",
     modalId: "modal13",
     alt: "Capa do livro Shakespeare",
-    link: "#"
+    link: "#",
   },
   {
     imagem: "SRC/LivroGênerosImg/O fanstástico mistério de Feiurinha 1.png",
@@ -227,7 +863,7 @@ const livrosCarroselMaisPedido = [
     descrição: "explora o que acontece após o ''felizes para sempre'' dos contos de fadas, questionando a ideia de que a felicidade reside apenas no casamento e na rotina familiar. A história acompanha Branca de Neve e outras princesas em busca de Feiurinha, uma princesa cujo conto ainda não foi escrito, e que desapareceu.",
     modalId: "modal14",
     alt: "Capa do livro O fanstástico mistério de Feiurinha",
-    link: "https://fd1c0b533e.cbaul-cdnwnd.com/88ae37cf5085e04655dc1589ba74ed0f/200000136-2e2192f1be/O_Fantastico_Mist%C3%A9rio_de_Feiurinha_-_Pedro_Bandeira.pdf"
+    link: "https://fd1c0b533e.cbaul-cdnwnd.com/88ae37cf5085e04655dc1589ba74ed0f/200000136-2e2192f1be/O_Fantastico_Mist%C3%A9rio_de_Feiurinha_-_Pedro_Bandeira.pdf",
   },
 ];
 

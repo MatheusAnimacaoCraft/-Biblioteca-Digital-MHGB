@@ -113,6 +113,7 @@
 .modal-body img {
     border-radius: 12px;
     transition: transform 0.3s ease;
+    width: 200px;
 }
 
 .modal-body img:hover {

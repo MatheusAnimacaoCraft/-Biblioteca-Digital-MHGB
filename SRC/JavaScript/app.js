@@ -31,12 +31,14 @@ livros.forEach(livro => {
       </div>
 
       <div class="modal-body">
-        <img src="${livro.imagem}" class=class="img-fluid w-100" alt="Eu Sou Malala">
+        <img src="${livro.imagem}" alt="${livro.alt}">
+
         <p class="descrição_titulo">${livro.descrição2}</p>
         <br>
         <p class="descrição_titulo descricao-curta">${livro.descrição.substring(0, 120)}...</p>
         <p class="descrição_titulo descricao-completa" style="display:none;">${livro.descrição}</p>
         <button class="btn btn-link ver-mais-modal">Ver mais</button>
+        
       </div>
 
       <div class="modal-footer">
